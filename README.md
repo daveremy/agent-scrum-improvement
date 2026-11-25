@@ -6,7 +6,7 @@
 
 Kaizen in an AI agent team, compared with Toyota, software process improvement and compound engineering.
 
-Dave Remy. Working paper, version 0.7, 25 November 2026. CC BY 4.0.
+Dave Remy. Working paper, version 0.8, 25 November 2026. CC BY 4.0.
 
 Cite this version: doi:10.5281/zenodo.24539844. All versions: doi:10.5281/zenodo.24539843.
 
@@ -23,7 +23,7 @@ Kaizen is continuous improvement in small steps against a written standard. This
 
 ## What this is, and is not
 
-This is a descriptive case study of one agent team run with Agent Scrum, in one deployment over 17 days. It reports what the team's records show. It is not a controlled study and does not show that the evaluation step improved outcomes. Earlier drafts were private and titled "Kaizen for Agents"; version 0.7 is the first public version.
+This is a descriptive case study of one agent team run with Agent Scrum, in one deployment over 17 days. It reports what the team's records show. It is not a controlled study and does not show that the evaluation step improved outcomes. Earlier drafts were private and titled "Kaizen for Agents"; version 0.7 was the first public version; version 0.8 adds section 9.4.
 
 ## Companion papers
 
