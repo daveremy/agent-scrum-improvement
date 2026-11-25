@@ -1,8 +1,14 @@
 # Continuous Improvement in Agent Scrum
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24539844.svg)](https://doi.org/10.5281/zenodo.24539844)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24539844.svg)](https://doi.org/10.5281/zenodo.24539844)
+
 Kaizen in an AI agent team, compared with Toyota, software process improvement and compound engineering.
 
 Dave Remy. Working paper, version 0.7, 25 November 2026. CC BY 4.0.
+
+Cite this version: doi:10.5281/zenodo.24539844. All versions: doi:10.5281/zenodo.24539843.
 
 ## Read
 
