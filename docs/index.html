@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Continuous Improvement in Agent Scrum: a descriptive case study of continuous improvement in one AI agent software team, compared with Toyota, software process improvement and compound engineering. Draft v0.7.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://daveremy.github.io/agent-scrum-improvement/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Continuous Improvement in Agent Scrum">
+<meta name="twitter:description" content="Continuous Improvement in Agent Scrum: a case study of continuous improvement in one agent team run with Agent Scrum. 355 infrastructure and 62 product retrospective issues in 16 days, what was implemented and what was verified, and the result of a test of an evaluation step with predictions stated in advance (303 of 323 retrospective issues carried a prediction; 129 of 156 due predictions received a verdict), read against Toyota, software process improvement and compound engineering.">
+<meta property="og:title" content="Continuous Improvement in Agent Scrum">
+<meta property="og:description" content="Continuous Improvement in Agent Scrum: a case study of continuous improvement in one agent team run with Agent Scrum. 355 infrastructure and 62 product retrospective issues in 16 days, what was implemented and what was verified, and the result of a test of an evaluation step with predictions stated in advance (303 of 323 retrospective issues carried a prediction; 129 of 156 due predictions received a verdict), read against Toyota, software process improvement and compound engineering.">
+<meta name="author" content="Dave Remy">
+<title>Continuous Improvement in Agent Scrum</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single-column working paper, same sheet as Agent Scrum and Persistent Agents. */
+:root{
+  --bg:#f3f5f4;
+  --plate:#ffffff;
+  --ink:#18201d;
+  --ink-2:#4c5753;
+  --rule:#d3dad7;
+  --accent:#1d5f8a;
+  --done:#2f7a4f;
+  --warn:#9a6a12;
+  --soft:#e4eae8;
+  --display:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --ui:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121816;--plate:#1a2220;--ink:#e4ebe8;--ink-2:#a2afaa;--rule:#2d3a36;
+    --accent:#6fb0dc;--done:#6cc28f;--warn:#d9ac55;--soft:#22302c;color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121816;--plate:#1a2220;--ink:#e4ebe8;--ink-2:#a2afaa;--rule:#2d3a36;
+  --accent:#6fb0dc;--done:#6cc28f;--warn:#d9ac55;--soft:#22302c;color-scheme:dark;
+}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.62;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:36px 72px;}
+article{max-width:690px;margin:0 auto;min-width:0}
+.disclose{font-family:var(--body);font-style:italic;font-size:.82rem;color:var(--ink-2);margin:2rem 0 0}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.15;font-weight:600;margin:0}
+h1{font-size:2.6rem;letter-spacing:-.01em;margin-bottom:.4rem}
+.subtitle{font-size:1.2rem;color:var(--ink-2);margin:0 0 1.2rem;font-style:italic}
+.byline{font-family:var(--ui);font-size:.78rem;color:var(--ink-2);letter-spacing:.06em;text-transform:uppercase;margin-bottom:1.8rem}
+h2{font-size:1.5rem;margin-top:2.8rem;margin-bottom:.8rem}
+h2 .n{font-family:var(--ui);font-size:.95rem;color:var(--accent);font-weight:600;margin-right:.5rem;letter-spacing:.02em}
+h3{font-size:1.15rem;margin-top:1.8rem;margin-bottom:.5rem}
+p{margin:0 0 1rem}
+.abstract{background:var(--plate);border:1px solid var(--rule);border-radius:6px;padding:16px 20px;margin:0 0 1.6rem}
+.abstract .lbl,.kw .lbl{font-family:var(--ui);font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600;display:block;margin-bottom:.4rem}
+.abstract p{font-size:.98rem;margin:0}
+.kw{font-size:.9rem;color:var(--ink-2);margin:0 0 2rem}
+.kw .lbl{display:inline;margin-right:.4rem}
+code{font-family:var(--mono);font-size:.82em;background:var(--soft);padding:.05em .3em;border-radius:3px}
+ul,ol{padding-left:1.3rem;margin:0 0 1rem}
+li{margin-bottom:.4rem}
+strong{font-weight:600}
+dfn{font-style:normal;font-weight:600}
+.tw{overflow-x:auto;margin:1.2rem 0 .4rem;background:var(--plate);border:1px solid var(--rule);border-radius:6px}
+table{border-collapse:collapse;width:100%;font-family:var(--ui);font-size:.86rem;line-height:1.45}
+th,td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-weight:600;color:var(--ink-2);font-size:.76rem;letter-spacing:.05em;text-transform:uppercase;background:var(--soft)}
+tr:last-child td{border-bottom:0}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tcap,figcaption{font-family:var(--ui);font-size:.84rem;color:var(--ink-2);margin:.5rem 0 1.6rem;line-height:1.5}
+figure{margin:1.6rem 0 0}
+.plate{background:var(--plate);border:1px solid var(--rule);border-radius:6px;padding:12px;overflow-x:auto}
+.plate svg{display:block;width:100%;height:auto;max-width:100%;min-width:560px}
+svg text{font-family:var(--ui);fill:var(--ink);font-size:13px}
+svg .dim{fill:var(--ink-2);font-size:11.5px}
+svg .box{fill:var(--plate);stroke:var(--rule);stroke-width:1.5}
+svg .hum{fill:var(--soft);stroke:var(--ink-2);stroke-width:1.5}
+svg .acc{fill:var(--plate);stroke:var(--accent);stroke-width:2}
+svg .dn{fill:var(--plate);stroke:var(--done);stroke-width:2}
+svg .wn{fill:var(--plate);stroke:var(--warn);stroke-width:2}
+svg .dash{fill:none;stroke:var(--ink-2);stroke-width:1.5;stroke-dasharray:5 4}
+svg .ln{stroke:var(--ink-2);stroke-width:1.5;fill:none}
+svg .lnw{stroke:var(--warn);stroke-width:2;fill:none}
+svg .ta{fill:var(--accent);font-weight:600}
+svg .td{fill:var(--done);font-weight:600}
+svg .tw2{fill:var(--warn);font-weight:600}
+svg .arrow{fill:var(--ink-2)}
+svg .arroww{fill:var(--warn)}
+svg .fillsoftbar{fill:var(--soft)}
+svg .barb{fill:var(--accent)}
+svg .barg{fill:var(--done)}
+svg .barw{fill:var(--warn)}
+svg .barn{fill:var(--rule)}
+svg .axis{stroke:var(--rule);stroke-width:1}
+svg .grid{stroke:var(--rule);stroke-width:1;stroke-dasharray:2 3}
+.note{font-family:var(--ui);font-size:.86rem;color:var(--ink-2);border-left:3px solid var(--warn);padding:2px 0 2px 12px;margin:0 0 1rem}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.refs{font-size:.9rem}
+.refs li{margin-bottom:.5rem}
+@media print{
+  :root{--bg:#fff;--plate:#fff;--ink:#111;--ink-2:#444;--rule:#ccc;--soft:#f0f2f1;color-scheme:light}
+  body{font-size:10.5pt;padding:0;background:#fff}
+  article{max-width:none}
+  .pdflink{display:none}
+  h2{break-after:avoid} h3{break-after:avoid}
+  figure,.tw,.abstract,table{break-inside:avoid}
+  .tw{overflow:visible}
+  .tw table{font-size:8pt;line-height:1.35}
+  .tw th,.tw td{padding:5px 7px}
+  .tw th{font-size:7pt;letter-spacing:.02em}
+  .plate svg{min-width:0}
+  a{color:inherit;text-decoration:none}
+}
+.pdflink{font-family:var(--ui);font-size:.85rem;margin:-1rem 0 1.6rem}
+</style>
+<style>
+td.c{text-align:center;white-space:nowrap}
+.changes{background:var(--plate);border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:6px;padding:12px 18px;margin:0 0 1.6rem;font-size:.92rem}
+.changes .lbl{font-family:var(--ui);font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600;display:block;margin-bottom:.3rem}
+.changes ul{margin:.2rem 0 0;padding-left:1.1rem}
+.changes li{margin-bottom:.25rem}
+</style>
+</head>
+<body>
+<article>
+
+<h1>Continuous Improvement in Agent Scrum</h1>
+<p class="subtitle">Kaizen in an AI agent team, compared with Toyota, software process improvement and compound engineering</p>
+<p class="byline">Dave Remy · Working paper · Version 0.7 · 25 November 2026 · CC BY 4.0</p>
+<p class="pdflink"><a href="agent-scrum-improvement.pdf">PDF</a> · <a href="https://daveremy.github.io/agent-scrum/">Agent Scrum</a> · <a href="https://daveremy.github.io/persistent-agents/">Persistent Agents</a></p>
+
+<div class="changes">
+<span class="lbl">Changes in v0.7</span>
+<ul>
+<li><strong>Title.</strong> Earlier drafts were titled "Kaizen for Agents"; kaizen moves to the subtitle.</li>
+<li><strong>Shorter.</strong> The main text is about 33% shorter (about 1,500 words moved to Appendix B), same claims. Lineage and case chronologies are in Appendix B; v0.6 Sections 8 and 9 are merged into Section 7. Tables 2 to 5 of v0.6 are now Tables 1 to 4.</li>
+<li><strong>Fixed.</strong> Step 7 is reported: all 129 verdicts end in keep. P2 and P4 are split by issue state. The CI comparison names its confound. Table 2 is a qualitative map. Instructions are no longer called mistake-proofing. The 70/30 rule is a noninferiority test.</li>
+<li><strong>Numbers.</strong> No v0.6 number changed. New: 129 of 129 keep; 114 of 119 due predictions on closed issues have a verdict, and 15 of 37 on open ones.</li>
+</ul>
+</div>
+
+<div class="abstract">
+<span class="lbl">Abstract</span>
+<p>Kaizen is continuous improvement in small steps against a written standard. This paper is a descriptive case study of kaizen in an agent software factory, a system in which AI coding agents write, test and ship software under rules people set. The factory studied is an agent team run with Agent Scrum. We define a method-independent improvement loop and map Agent Scrum and nine other published accounts onto it. In 16 days to 5 November 2026 the team filed 417 retrospective issues; of 20 sampled done issues, 18 named a merged change and none recorded a measured effect. On 6 November the team added an evaluation step: each retrospective issue states a prediction, and a later wrap records a verdict. In the next 17 days, 303 of 323 retrospective issues (94%) carried a prediction and 129 of 156 due predictions (83%) received a verdict: 95 held, 18 did not, 16 could not be measured. All 129 verdicts ended in keep; none in reverse. The agents that write a prediction also grade it, and we did not audit whether the measurements ran, so the figures show records, not effects. The prediction on authorship failures could not be tested.</p>
+</div>
+<p class="kw"><span class="lbl">Keywords</span>kaizen, agent software factory, compound engineering, Experience Factory, andon, jidoka, PDCA, retrospectives, AI coding agents, Agent Scrum, case study</p>
+
+<h2><span class="n">1</span>Introduction</h2>
+
+<p>Kaizen is the practice by which a Toyota plant improves its own work: small changes, proposed mostly by the people doing the work, each tested against a written standard and kept if it helps [7]. In 2026 several teams began to call their setups for AI coding agents software factories (Section 6). Most try to make the factory better at its own work, a practice some call compound engineering. This paper asks what kaizen and the disciplines around it, quality management and software process improvement, say about that effort, and what one factory's records show about it.</p>
+
+<p>The paper is a case study of one factory, not a test of a general claim. Its reference case is an agent team run with Agent Scrum, a sprint method with a committed backlog, a Definition of Done and a retrospective at every wrap [2]. We use the team because we can read its records; the loop of Section 5 is stated so that other methods can be mapped onto it.</p>
+
+<p>The Agent Scrum paper, published on 28 October 2026, called the retrospective the method's weakest part: 119 of 159 retrospective actions counted from sprint reports were open on that date [2]. In the 16 days from 20 October, when the team began labeling retrospective issues, to 5 November, the agents filed 355 of them on the infrastructure repository and 62 on the product repository.</p>
+
+<p><strong>Why the paper is written.</strong> We write it to share what one team learned, so that others can use and correct it, and to improve the team's own implementation: explaining a practice to a reader exposes its gaps, and working in the open invites correction. Writing version 0.4 exposed that the team recorded fixes but not their effects; the team added an evaluation step on 6 November (Section 8.3), and Section 9.3 reports its first 17 days. Reading related work exposed a second gap: the team's lessons files (Markdown notes in which agents write down a diagnosis and a rule after a failure) record diagnoses and rules but not predictions or outcomes (Section 6.2).</p>
+
+<p>Our contributions are (1) a short account of the quality-management and software-process ideas that bear on agent factories; (2) a method-independent improvement loop and a comparison of ten entries against it; (3) a separation of an improvement's stages, proposed, implemented, closed and verified, with counts for one team; (4) two cases followed from filing to intervention; and (5) a test of an evaluation step, with predictions stated in advance and results over 17 days.</p>
+
+<h2><span class="n">2</span>Background</h2>
+
+<h3>2.1 Predictions, standards and kaizen</h3>
+
+<p>Walter Shewhart introduced the <dfn>control chart</dfn>, a plot of a measurement over time with limits that separate ordinary variation from a cause worth finding, and set out its theory in 1931 [37]. In 1939 he described quality control as a cycle of specification, production and inspection [3]. W. Edwards Deming taught statistical quality control in Japan from 1950, and Japanese engineers turned it into the <dfn>PDCA cycle</dfn>: Plan a change, Do it on a small scale, Check the result, Act by adopting or abandoning it. Deming later taught the <dfn>PDSA cycle</dfn>, with Study in place of Check, because "check" suggested inspection where he meant learning from a prediction [4, 29]. The difference matters here: in PDSA one states in advance what the change should do, so the result can refute it. <dfn>Total Quality Management</dfn> (TQM) is a broader, later label for organization-wide quality management [29, 30]. This paper uses specific mechanisms from it and does not claim to apply TQM as a whole (Section 10).</p>
+
+<p>The <dfn>Toyota Production System</dfn> (TPS) [5, 6] rests on <dfn>just-in-time</dfn> production and <dfn>jidoka</dfn> (Section 2.2). <dfn>Standardized work</dfn> fixes the pace, the sequence and the work in progress for each job [5, 6]. <dfn>Kaizen</dfn> is continuous improvement in small steps against that standard [7]. Kaizen needs a standard: without one there is nothing to measure a change against and nothing to update when the change works.</p>
+
+<h3>2.2 Containing and preventing</h3>
+
+<p><dfn>Jidoka</dfn> means that a machine or a worker stops when a defect is found, rather than passing defective work downstream where it costs more to fix. The <dfn>andon</dfn> is the signal for it, often a cord along the line: a worker who sees a problem pulls it, a light shows the station and a team leader comes [5, 6]. Andon contains a defect; it does not by itself prevent the next one. Prevention is the job of the improvement that follows (Figure B1 in Appendix B shows the two side by side). <dfn>Poka-yoke</dfn>, mistake-proofing, is a method developed by Shigeo Shingo [38]: a device that makes an error impossible (a fixture that accepts a part only the right way around) or detects it at once and stops or warns [5, 38]. It works without anyone having to remember a rule. A written instruction does not meet this definition, because it depends on the reader obeying it.</p>
+
+<h3>2.3 Software process improvement</h3>
+
+<p>At NASA's Software Engineering Laboratory, Victor Basili and colleagues developed the <dfn>Quality Improvement Paradigm</dfn>: characterize the environment, set measurable goals, choose a process, execute it, analyze the results, and package what was learned [31, 32]. The <dfn>Experience Factory</dfn> is the organization that does the packaging: a group separate from the projects that turns their data and lessons into models, guidelines and tools the next project uses [31]. Basili compared the paradigm with PDCA and TQM [32]; Watts Humphrey's process-maturity work also drew on Deming [33]. Three features bear on agent teams: the experience organization is separate from the project organization; work starts from measurable goals, as the Goal/Question/Metric approach turns each goal into questions and measures before the work begins, the same requirement as the prediction in PDSA [40]; and what is packaged is reusable experience, kept with its context [31].</p>
+
+<p>The Experience Factory is the nearest earlier model of a retrospective backlog; making lessons survive the end of a project is the problem an agent team faces at every context reset. The reference case has the third feature (rules, gates and briefs that hold lessons), part of the first (a separate repository and backlog for the team's own process) and mostly lacks the second (Section 9.1).</p>
+
+<h3>2.4 Compound engineering</h3>
+
+<p><dfn>Compound engineering</dfn> is a term from Every. Kieran Klaassen defined it in 2025 as "building self-improving development systems where each iteration makes the next one faster, safer, and better" [8]. Every's later guide states the principle as "each unit of engineering work should make subsequent units easier" [9]. Its loop is plan, work, review, compound: the lessons are written into the instructions, tools and checks the agents use next time. The guide gives two allocation rules: planning and review take 80 percent of the time within a piece of work, and half of an engineer's time goes to improving the system that builds the features [9]. Reflexion (2023) is a related research line in which a language-model agent writes verbal reflections on its failures and reads them on the next attempt [34].</p>
+
+<h3>2.5 Lineage: influence or analogy</h3>
+
+<p>It is tempting to say that compound engineering descends from TQM. The evidence supports three kinds of claim, which we keep apart: <em>documented influence</em> (a later author says the earlier work shaped theirs), <em>plausible indirect influence</em> (the ideas were in wide circulation, but no citation links them) and <em>functional analogy</em> (two practices do similar jobs and may have arisen independently). Most links among the older work are documented [10, 11, 32]; the link from Deming to TPS is only plausible, as we found no source in which its designers credit him [5, 6]. For compound engineering the two Every texts we read on 5 November 2026 cite none of DevOps, Lean, agile retrospectives, the Experience Factory or Reflexion [8, 9]. The links from DevOps, Lean and agile retrospectives are plausible indirect influence, because those ideas were common in software practice by 2025; the links from the Experience Factory and Reflexion are analogy (Table B1). The absence of citations is weak evidence against descent, because practitioner writing often omits sources. This paper uses the older results as a source of questions, not as results that transfer. Appendix B.2 gives each link.</p>
+
+<h2><span class="n">3</span>Method</h2>
+
+<p><strong>Design.</strong> A descriptive single-case study of one team, with no comparison group. We chose the case because we could read its records, not because it is typical.</p>
+
+<p><strong>Window and cutoff.</strong> 20 October 2026, when the <code>from-retro</code> label was first used, to 5 November 2026 at 16:00 Mountain Standard Time (UTC−7), the time zone used for times of day in Sections 1 to 9.2, in Appendix B and in Figures 1 and 4. Section 9.3 states its own conventions.</p>
+
+<p><strong>Sources.</strong> Issues labeled <code>from-retro</code> on the infrastructure repository and (counted on the morning of 5 November, not recomputed) on the product repository; sprint reports and the sprint index; the nightly CI sweep reports; commit history and closing comments; and the CI service's record of the daily full test run (details in Appendix B.3). The infrastructure repository is private, so the issues and pull requests this paper cites are labeled C1, C2 and so on, with their dates, times and counts as recorded.</p>
+
+<p><strong>Stages of an improvement.</strong> We count four stages separately. <em>Proposed</em>: an issue was filed. <em>Implemented</em>: a merged change is named in the issue or cites it. <em>Closed</em>: the issue was closed, as done or as not planned. <em>Verified</em>: a measurement shows the intended effect. Proposed and closed are counted for every issue; implemented and verified are estimated from the audit sample below. Closure is an administrative state: it can come from a merge, from a grooming pass that finds the problem already fixed, or from a decision not to act.</p>
+
+<p><strong>Statistics and audit.</strong> Medians and 90th percentiles are of hours from filing to closing, by close reason; the 90th percentile is the value at zero-based index ⌊0.9(n−1)⌋ of the sorted list, not the nearest-rank convention. Sprints are not independent observations: consecutive sprints share agents, backlog and standards. For the audit we drew 20 done issues at random, with a fixed seed, and checked each for a merged change (a commit on the main branch that cites it, or one named in its closing comment) but not for its effect. Intervals for the audit sample are exact (Clopper–Pearson) 95% binomial intervals; the nominal intervals in Table 4 are Wilson score intervals.</p>
+
+<p><strong>Backlog passes and case selection.</strong> We identify backlog passes from bursts of closures and report them separately (Table 3). The two cases in Section 9.2 were chosen because each has a measurement or a recorded count before its intervention; only the CI case also has one after. That choice biases the cases toward improvements whose effect can be measured.</p>
+
+<figure>
+<div class="plate">
+<svg viewBox="0 0 680 320" role="img" aria-labelledby="f3t">
+<title id="f3t">Timeline from 9 September to 5 November 2026 marking when each measurement series began, the change from two-hour to three-hour sprints on 3 November, and the main interventions, including three backlog passes and two merges on 2 November.</title>
+<text x="20" y="22" font-weight="600">When each series starts, and what changed during the window</text>
+<line class="axis" x1="30" y1="120" x2="660" y2="120"/>
+<line class="ln" x1="40" y1="66" x2="40" y2="128"/><text x="46" y="64">nightly document pass, 9 Sep</text>
+<text x="60" y="124" class="dim">//</text>
+<line class="ln" x1="80" y1="108" x2="80" y2="132"/><text x="86" y="104">retro label</text>
+<line class="ln" x1="280" y1="108" x2="280" y2="132"/><text x="274" y="104" text-anchor="end">CI sweep data</text>
+<line class="ln" x1="347" y1="108" x2="347" y2="132"/><text x="353" y="104">Agent Scrum published</text>
+<line class="ln" x1="547" y1="60" x2="547" y2="132"/><text x="541" y="72" text-anchor="end">2-hour to 3-hour sprints; split recorded</text><text x="541" y="88" text-anchor="end" class="dim">daily full CI run starts</text>
+<line class="ln" x1="635" y1="108" x2="635" y2="132"/><text x="641" y="104" class="dim">cut</text>
+<g class="dim"><text x="80" y="146" text-anchor="middle">20 Oct</text><text x="280" y="146" text-anchor="middle">26 Oct</text><text x="347" y="146" text-anchor="middle">28 Oct</text><text x="447" y="146" text-anchor="middle">31 Oct</text><text x="547" y="146" text-anchor="middle">3 Nov</text><text x="613" y="146" text-anchor="middle">5 Nov</text></g>
+<path class="lnw" d="M348,150 L348,170"/><text x="342" y="174" text-anchor="end" class="tw2">CI limits raised (27–28 Oct)</text>
+<path class="ln" d="M373,150 L373,192"/><text x="367" y="196" text-anchor="end" class="dim">authorship first filed (28 Oct)</text>
+<path class="lnw" d="M476,150 L476,214"/><text x="470" y="218" text-anchor="end" class="tw2">duplicate triage (31 Oct)</text>
+<path class="lnw" d="M517,150 L517,236"/><text x="511" y="240" text-anchor="end" class="tw2">selective CI merged (2 Nov)</text>
+<path class="ln" d="M546,150 L546,258"/><text x="540" y="262" text-anchor="end" class="dim">footer stripping merged (2 Nov)</text>
+<path class="lnw" d="M551,150 L551,280"/><path class="lnw" d="M626,150 L626,280"/><text x="545" y="284" text-anchor="end" class="tw2">grooming passes (3 and 5 Nov)</text>
+<path class="ln" d="M583,150 L583,302"/><text x="577" y="306" text-anchor="end" class="dim">authorship mechanism (4 Nov)</text>
+</svg>
+</div>
+<figcaption>Figure 1. Observation timeline. Series start above the axis, interventions below. Sprints lasted two hours until 3 November and three hours after. The product/infrastructure split exists only from 3 November, the CI series from 26 October, and the daily full CI run (a reference series in Section 9.2) from 3 November. Times are Mountain Standard Time.</figcaption>
+</figure>
+
+<h2><span class="n">4</span>The reference case</h2>
+
+<p>The team is described in two earlier working notes [1, 2]; nothing here depends on how it is hosted. The engineering agent acts as product owner and plans sprints. It is one of the team's long-running agents, each of which has a role (engineering, research, operations and so on) and keeps a session across days; sprint agents, by contrast, are short-lived. A scrum-team agent runs each sprint and starts short-lived developer and reviewer agents for each task, from a written <em>brief</em> that may contain a <em>stop rule</em>, a condition under which the agent must stop and report. Reviews use two reviewer agents from different model vendors. Sprints lasted two hours until 3 November and three hours, about eight a day, since then. Work comes from two repositories: the product (a web application) and the infrastructure repository, which holds the agents' instructions, scripts, tests and gates (checks in continuous integration, CI, that must pass). Every sprint ends with a <em>wrap</em> that writes a report and a retrospective, and each retrospective finding ends in a filed issue, a mitigation already applied, or a stated reason not to act [2, §5.11]. The paper uses Agent Scrum's vocabulary [2, §6].</p>
+
+<p>Three features of this deployment shape what follows; they describe this team, not agents in general. First, sprint agents start from a fresh context: a developer agent knows only its brief and the repository, and the scrum-team agent's context is cleared at each wrap. A lesson that is not written into a file is not available to the next task. Second, sprints run around the clock, so a change merged at 02:00 is used by 08:00. Third, improvement work and product work draw on the same rate-limited model capacity.</p>
+
+<h2><span class="n">5</span>A method-independent improvement loop</h2>
+
+<p>To compare factories that use different methods, we need a description of improvement that does not assume sprints, retrospectives or a product owner. We use seven steps, drawn from PDSA and the Quality Improvement Paradigm:</p>
+
+<ol>
+<li><strong>Observe.</strong> A problem is detected, inside the line (a failed check) or outside it (an idea from elsewhere).</li>
+<li><strong>Contain.</strong> The defective unit is stopped before it moves on.</li>
+<li><strong>Investigate.</strong> The cause is found and its cost measured.</li>
+<li><strong>Select.</strong> Among all proposed changes, some are chosen and the rest are deferred or rejected.</li>
+<li><strong>Change.</strong> The chosen change is made to a standard: a rule, a gate, a test, a script, a brief.</li>
+<li><strong>Evaluate.</strong> The effect is measured against a prediction made before the change.</li>
+<li><strong>Retain or reverse.</strong> The change stays in the standard, or is taken out.</li>
+</ol>
+
+<p>Steps 1 and 2 are andon and jidoka. Steps 3 to 7 are kaizen. This split is this paper's construction, not a TPS definition: Toyota describes jidoka as both stopping at an abnormality and preventing its recurrence [39], so at Toyota jidoka also reaches into steps 3 to 7. Any factory can be mapped onto these steps; nothing requires a ceremony. The loop has two inputs: problems seen inside the line, and ideas from outside, such as a scheduled news scan (Appendix B.4). Figure 2 shows the loop with Agent Scrum's counterpart under each step, and Table 1 maps the quality concepts of Section 2 onto it (the Experience Factory corresponds to steps 5 and 7, and reserved improvement capacity to step 4; Section 7).</p>
+
+<figure>
+<div class="plate">
+<svg viewBox="0 0 680 330" role="img" aria-labelledby="f4t">
+<title id="f4t">A loop of seven steps: observe, contain, investigate, select, change, evaluate, retain or reverse, with two inputs (internal problems and external ideas), a reject exit at select, a reverse path at evaluate, and Agent Scrum's counterpart under each step.</title>
+<defs><marker id="ah4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="arrow" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+<rect class="hum" x="20" y="30" width="130" height="40" rx="6"/><text x="85" y="55" text-anchor="middle">internal problems</text>
+<rect class="hum" x="20" y="250" width="130" height="40" rx="6"/><text x="85" y="275" text-anchor="middle">external ideas</text>
+<path class="ln" d="M85,70 L85,96" marker-end="url(#ah4)"/>
+<path class="ln" d="M150,270 L230,270 L230,200" marker-end="url(#ah4)"/>
+<rect class="wn" x="20" y="98" width="130" height="56" rx="6"/><text x="85" y="120" text-anchor="middle" class="tw2">1 Observe</text><text x="85" y="138" text-anchor="middle" class="dim">failed check, block</text>
+<rect class="wn" x="20" y="170" width="130" height="56" rx="6"/><text x="85" y="192" text-anchor="middle" class="tw2">2 Contain</text><text x="85" y="210" text-anchor="middle" class="dim">merge refused</text>
+<path class="ln" d="M85,154 L85,168" marker-end="url(#ah4)"/>
+<path class="ln" d="M150,198 L178,198" marker-end="url(#ah4)"/>
+<rect class="box" x="180" y="140" width="110" height="56" rx="6"/><text x="235" y="162" text-anchor="middle">3 Investigate</text><text x="235" y="178" text-anchor="middle" class="dim">retro line:</text><text x="235" y="191" text-anchor="middle" class="dim">cause, cost</text>
+<path class="ln" d="M290,168 L318,168" marker-end="url(#ah4)"/>
+<rect class="acc" x="320" y="140" width="110" height="56" rx="6"/><text x="375" y="162" text-anchor="middle" class="ta">4 Select</text><text x="375" y="180" text-anchor="middle" class="dim">planning, ranked</text>
+<path class="dash" d="M375,196 L375,250" marker-end="url(#ah4)"/>
+<rect class="dash" x="320" y="252" width="110" height="40" rx="6"/><text x="375" y="269" text-anchor="middle" class="dim">rejected:</text><text x="375" y="283" text-anchor="middle" class="dim">not planned</text>
+<path class="ln" d="M430,168 L458,168" marker-end="url(#ah4)"/>
+<rect class="dn" x="460" y="140" width="100" height="56" rx="6"/><text x="510" y="162" text-anchor="middle" class="td">5 Change</text><text x="510" y="178" text-anchor="middle" class="dim">merged rule,</text><text x="510" y="191" text-anchor="middle" class="dim">gate</text>
+<path class="ln" d="M510,140 L510,98" marker-end="url(#ah4)"/>
+<rect class="box" x="460" y="40" width="100" height="56" rx="6"/><text x="510" y="62" text-anchor="middle">6 Evaluate</text><text x="510" y="78" text-anchor="middle" class="dim">measure vs</text><text x="510" y="91" text-anchor="middle" class="dim">prediction</text>
+<path class="ln" d="M560,68 L578,68" marker-end="url(#ah4)"/>
+<rect class="box" x="580" y="40" width="90" height="56" rx="6"/><text x="625" y="62" text-anchor="middle">7 Retain</text><text x="625" y="80" text-anchor="middle" class="dim">or reverse</text>
+<path class="ln" d="M625,40 L625,14 L85,14 L85,28" marker-end="url(#ah4)"/>
+<text x="355" y="10" text-anchor="middle" class="dim">the retained standard is what the next unit of work runs on</text>
+<path class="dash" d="M625,96 L625,168 L562,168"/>
+<text x="634" y="140" class="dim">reverse</text>
+<text x="20" y="316" class="dim">Steps 1–2: andon and jidoka, during the sprint. Steps 3–7: kaizen, from the wrap onward. Step 6 is the one most often missing.</text>
+</svg>
+</div>
+<figcaption>Figure 2. The improvement loop used in this paper, with Agent Scrum's counterpart under each step. Rejection at step 4 and reversal at step 7 are normal exits. Step 6 is rare in the reference case (Section 9.1).</figcaption>
+</figure>
+
+<div class="tw"><table>
+<thead><tr><th>Concept</th><th>Loop step</th><th>Agent Scrum counterpart</th><th>Where the mapping is partial</th></tr></thead>
+<tbody>
+<tr><td><strong>PDSA / PDCA</strong></td><td>3–7</td><td>Retrospective, planning, sprint, next retrospective [2, §5.3, §5.10, §5.11]</td><td>Most changes are not evaluated against a prediction (Section 9.1).</td></tr>
+<tr><td><strong>Andon</strong></td><td>1–2</td><td>A reviewer agent that blocks a pull request; a task that hits its stop rule and files an impediment [2, §5.7]</td><td>Stops one task, never the sprint. Every pull leaves a record.</td></tr>
+<tr><td><strong>Jidoka</strong></td><td>1–2</td><td>CI gates, the merge check, hooks that refuse an action; checks return pass, fail or unknown</td><td>A check that cannot run must say unknown, never pass [2, §5.6].</td></tr>
+<tr><td><strong>Kaizen</strong></td><td>3–7</td><td>Retrospective issues filed by any agent; 355 on the infrastructure repository in 16 days</td><td>No supplier side and no management hierarchy.</td></tr>
+<tr><td><strong>Poka-yoke</strong></td><td>5</td><td>A hook or linter that refuses an action; a merge script that re-checks approvals</td><td>An instruction in a brief is not poka-yoke, even when a launch tool inserts it into every brief: that assures delivery, not obedience. Stripping a forbidden footer repairs output after the fact (Section 9.2).</td></tr>
+</tbody></table></div>
+<p class="tcap">Table 1. Quality and process-improvement concepts, the loop step each belongs to, the reference case's counterpart, and the limits of the mapping.</p>
+
+<h2><span class="n">6</span>Other agent software factories and related work</h2>
+
+<h3>6.1 Ten entries, scored with the same criteria</h3>
+
+<p><strong>Inclusion.</strong> Public accounts, dated 2023 to 2026, of a system, method or prototype in which AI agents produce software, found by web and X searches on 5 November 2026 [17–25, 35, 36]. A research roadmap that describes no factory [26] and accounts of how others name or rate factories [27, 28] are not scored.</p>
+
+<p><strong>Criteria.</strong> The columns are six capabilities from the loop. Five map to steps: Detect (step 1), Block (step 2, authority to stop a unit, not only to detect), Diagnose (step 3), Persist change (step 5) and Verify outcome (step 6, a measured effect of a change to the factory, not a measure of the product). Escalate is not a loop step: it records handing a problem to someone with authority to decide it. Steps 4 and 7 are not scored. For each column we record whether the account describes the capability (D), describes its absence (A), or does not mention it (–); D does not mean it works. Agent Scrum is scored from its paper [2] by the same rule.</p>
+
+<div class="tw"><table>
+<thead><tr><th>Entry</th><th>Type, date</th><th>Source</th><th>Detect</th><th>Block</th><th>Escalate</th><th>Diagnose</th><th>Persist change</th><th>Verify outcome</th></tr></thead>
+<tbody>
+<tr><td>Agent Scrum (reference case) [2]</td><td>Method, Oct 2026</td><td>primary</td><td class="c">D</td><td class="c">D</td><td class="c">D</td><td class="c">D</td><td class="c">D</td><td class="c">–</td></tr>
+<tr><td>StrongDM Software Factory [17, 18]</td><td>System, Feb 2026</td><td>secondary</td><td class="c">D</td><td class="c">–</td><td class="c">–</td><td class="c">–</td><td class="c">–</td><td class="c">–*</td></tr>
+<tr><td>OpenAI, harness engineering [19]</td><td>System, Feb 2026</td><td>primary</td><td class="c">D</td><td class="c">D</td><td class="c">D</td><td class="c">D</td><td class="c">D</td><td class="c">–</td></tr>
+<tr><td>Factory.ai, Factory 2.0 [20]</td><td>Vendor, Jun 2026</td><td>primary</td><td class="c">D</td><td class="c">–</td><td class="c">–</td><td class="c">D</td><td class="c">D</td><td class="c">–</td></tr>
+<tr><td>BCG Platinion, Agentic Software Factory [21]</td><td>Consulting, Mar 2026</td><td>primary</td><td class="c">–</td><td class="c">–</td><td class="c">D</td><td class="c">–</td><td class="c">–</td><td class="c">–</td></tr>
+<tr><td>Every, compound engineering [8, 9]</td><td>Method, 2025–2026</td><td>primary</td><td class="c">D</td><td class="c">–</td><td class="c">D</td><td class="c">D</td><td class="c">D</td><td class="c">–</td></tr>
+<tr><td>Gas Town and Gas City [22]</td><td>System and toolkit, Jan–May 2026</td><td>secondary</td><td class="c">D</td><td class="c">D</td><td class="c">–</td><td class="c">–</td><td class="c">–</td><td class="c">–</td></tr>
+<tr><td>BMAD Method v6 [23]</td><td>Method, 2025–2026</td><td>primary</td><td class="c">D</td><td class="c">D</td><td class="c">–</td><td class="c">D</td><td class="c">–</td><td class="c">–</td></tr>
+<tr><td>GitHub Spec Kit [24]</td><td>Toolkit, Sep 2025</td><td>secondary</td><td class="c">D</td><td class="c">–</td><td class="c">–</td><td class="c">–</td><td class="c">–</td><td class="c">–</td></tr>
+<tr><td>AgileCoder; MetaGPT; ChatDev [25, 35, 36]</td><td>Research, 2023–2025</td><td>primary (abstracts only)</td><td class="c">D</td><td class="c">–</td><td class="c">–</td><td class="c">–</td><td class="c">–</td><td class="c">–*</td></tr>
+</tbody></table></div>
+<p class="tcap">Table 2. Published agent factories against six capabilities drawn from the loop of Section 5. D: the account describes the capability. A: it describes its absence (no entry did). –: not mentioned, which is not evidence of absence. *A product or benchmark measure (StrongDM's satisfaction rate; the benchmark comparisons in the research row), not an outcome of a change to a running factory; not counted as a Verify outcome. The research row was scored from abstracts only, and its dashes may reflect that reading. Two rows group several systems. Sources read 5 and 6 November 2026.</p>
+
+<p>Table 2 is a qualitative map, not a prevalence count. Its rows differ in kind, in source depth (several are secondary accounts, and one row is three papers read from abstracts) and in grouping. Within that map, detection is described in nine of the ten rows, blocking in four, diagnosis in five and persistence in four; these counts describe the map, not how common each capability is among agent factories. No row, including Agent Scrum's own paper, reports a measured outcome of its improvement loop in a running factory; Section 9 reports what the reference case's records show. Product and benchmark measures, such as StrongDM's satisfaction rate [18] and the benchmarks in the research row, are marked – with an asterisk, not D, because they do not measure a change to the factory.</p>
+
+<p>The mapping of TPS tools onto AI-assisted software work is not new: a Lean Enterprise Institute article of November 2025 (an interview with Fabrice Bernhard of Theodo, written by an AI model from the transcript, as the page states) maps jidoka, andon, poka-yoke and kaizen onto it and treats automated tests as the andon [27]. This paper adds the separation of lineage from analogy, the common criteria of Table 2 and the stage-by-stage counts of Section 9.</p>
+
+<h3>6.2 Agents that learn from outcomes</h3>
+
+<p>Anthropic's Dreams reads a memory store and past session transcripts and writes a new, reorganized store, leaving the input unchanged [14]. Cognition's Agent Memory Repo keeps an agent's memory in linked Markdown files and runs a periodic agent that adds patterns found across sessions [15]. Both reorganize what an agent remembers; the reference case's document passes read documents, not transcripts (Section 8.2).</p>
+
+<p>The closest prior work is Self-Improvement Memory (SIM) by Yu, Xia, Pan and colleagues, on continued automated optimization of an agent harness [41]. For each selected edit, SIM records its rationale, the predicted and observed task outcomes and the context, grouped by root cause, and the optimizer reads the whole record before proposing the next edit. One domain is scored by a model judge whose bias the authors acknowledge. Over ten paired coding runs, the full record improved the result in nine, by 2.36 points on average (paired p = 0.003); the other domains have one run per condition. A record of root causes alone had mixed effects, from 1.82 points below to 2.40 points above the harness-only baseline. We have not reproduced these results. Our evaluation step has the same shape (a prediction before the change, an observed outcome after it), and the team's lessons files resemble the root-cause-only condition. But SIM optimizes a harness automatically and scores against held-out tasks, whereas our fixes are chosen by agents and graded against a measure the filer chose, with no independent scorer. We report records of the step, not improvement, so we cannot claim SIM's gain.</p>
+
+<p>Bessant, Caffyn and Gallagher describe stages by which organizations develop continuous improvement as a routine [42]. Their separation of collecting suggestions, running a process and sustaining the capability matches this paper's separation of filing, implementing and verifying; their findings concern people, not agents. The Scrum retrospective [16] and the blameless postmortem [12] are functional analogues of the kaizen review; we found no source documenting a direct line from either. This paper's addition to Agent Scrum's rule that every finding ends somewhere [2] is to count each stage after the issue separately.</p>
+
+<h2><span class="n">7</span>A planned allocation of capacity, and the retrospective channel</h2>
+
+<p><strong>The 70/30 split.</strong> At each sprint planning the product owner agent records its approximate product share in the sprint index ("~70% product"). The record began with sprint 394 on 3 November 2026. In the 15 sprints from 394 to 408 the recorded share ranged from 60% to 90%, with a median of 70% and a mean of 73% (Appendix A). These numbers are a <em>planning policy</em>, not a measurement of where capacity went. The recorded value is the planned share, written by the agent that sets it, so the policy holding over 15 sprints shows only that the planner followed its own rule. The unit is not stated (story points or a count of stories), and neither is model capacity consumed. And membership in the infrastructure repository is not the same as improvement work. Published shares (20% for non-functional work in <em>The DevOps Handbook</em> [11], about half in Every's guide [9], about a fifth of engineering time on cleanup at OpenAI [19]) are single-organization claims, not evidence of an optimum.</p>
+
+<p><strong>A rule for rejecting the 30%.</strong> We state the policy so that it can be rejected. The argument for a fixed share is that standards must follow changes in models and tools; it supports continuing maintenance, not a particular share. A test needs four things the records do not yet have: the capacity actually spent on each side, a stable identity for each kind of finding, a count of eligible tasks per sprint (so that recurrence per eligible task can be computed) and a stated unit for product work. With those, we propose a noninferiority test of a lower improvement share. The comparison is a prior period at the current share against a period at the lower share, each over at least four weeks, with a <em>lag</em> of two weeks before each period (so that improvements funded earlier do not count). Sprints are not independent, so the intervals use weekly blocks or a cluster-robust method. The lower share is judged noninferior if the upper 95% confidence bound of the relative rise in recurrence per eligible task is below a <em>margin</em> of 10%, and the lower 95% bound of the relative change in merged product points per sprint is above −5% (a fall of less than 5%; a rise is expected). A higher share is judged worthwhile if the upper 95% bound of the relative change in recurrence is below −10% and the lower 95% bound of the relative change in product points is above −5%. The lag, exposure, margins and interval method are our proposal and must be fixed before the lower-share period starts. A short comparison favoring a lower share is preliminary evidence, not grounds to reject the policy.</p>
+
+<p><strong>The retrospective channel.</strong> The retrospective is not the team's andon cord. Andon is steps 1 and 2 of the loop: a failed gate, a blocking reviewer or a task that hits its stop rule contains a defect and leaves a record. The retrospective at the wrap is step 3 onward: it reads that record and files proposals. In the eight days after the Agent Scrum paper, retrospective filing changed from a section written by the scrum-team agent to a channel any agent writes to. A retrospective issue is filed by the agent that saw the problem, in the sprint in which it saw it, and records the measured cost (for example "two extra two-seat review rounds", C15 in Appendix B.5; a same-day cycle is C20 and C21 there) and a proposed fix. It waits for planning; it does not stop the sprint.</p>
+
+<p>A description of this channel is not a finding. A testable claim is this: <strong>after a countermeasure that has been verified, the rate at which the same finding recurs, per eligible task, should fall, and the fall should outweigh the cost of filing, grooming and reviewing the proposals.</strong> Evidence against it would be a recurrence rate that stays flat after verified countermeasures, or a handling cost that grows faster than recurrences fall.</p>
+
+<h2><span class="n">8</span>The loop applied to itself</h2>
+
+<p>A suggestion system can collect proposals faster than it acts on them. The team met two forms of this, and responded with an evaluation step.</p>
+
+<h3>8.1 Grooming the retrospective backlog</h3>
+
+<p>By 1 November the open backlog was over 300 issues, and planning could not read it all. The product owner agent groomed it in three passes. On 31 October a triage closed 61 issues as not planned, each naming the issue it duplicates. On 3 November, at four sprint plannings, 92 were closed as done from lists of candidates, each naming the commit or repository state that shows the problem already fixed (seven more closed as done that day through an ordinary merge). On 5 November 23 were closed as not planned, each with a one-line reason. Together the passes closed 176 of the 324 retrospective issues closed in the window (54%; Table 3 and Figure 3).</p>
+
+<div class="tw"><table>
+<thead><tr><th>Measure</th><th class="num">Infrastructure</th><th class="num">Product</th></tr></thead>
+<tbody>
+<tr><td>Issues labeled from-retro</td><td class="num">355</td><td class="num">62</td></tr>
+<tr><td>Closed as done</td><td class="num">233 (66%)</td><td class="num">54</td></tr>
+<tr><td>&nbsp;&nbsp;of which in the 3 November pass (already fixed)</td><td class="num">92</td><td class="num">n/a</td></tr>
+<tr><td>Closed as not planned</td><td class="num">91 (26%)</td><td class="num">7</td></tr>
+<tr><td>&nbsp;&nbsp;of which duplicates in the 31 October pass</td><td class="num">61</td><td class="num">n/a</td></tr>
+<tr><td>&nbsp;&nbsp;of which in the 5 November pass</td><td class="num">23</td><td class="num">n/a</td></tr>
+<tr><td>Open (3 reopened)</td><td class="num">31 (9%)</td><td class="num">1</td></tr>
+<tr><td>Done: median / 90th percentile hours to close</td><td class="num">32 / 232</td><td class="num">n/a</td></tr>
+<tr><td>Not planned: median / 90th percentile hours to close</td><td class="num">94 / 252</td><td class="num">n/a</td></tr>
+<tr><td>Open: median / maximum age in hours</td><td class="num">257 / 345</td><td class="num">n/a</td></tr>
+</tbody></table></div>
+<p class="tcap">Table 3. Retrospective issues, 20 October to 5 November 2026 16:00. Product-repository counts are from the morning of 5 November; their ages and passes were not computed. Percentages are of the 355.</p>
+
+<p>Done issues closed in a median of 32 hours; issues closed as not planned took about three times as long, because 84 of the 91 waited for one of two passes. Open issues are old (median age 257 hours), mostly filed in the first week. On 28 October, 119 of 159 retrospective actions in Agent Scrum's count (75%) were open [2]; on 5 November, 31 of 355 labeled issues (9%) were. Those figures count different things at different times, so we do not split the fall among the passes and ordinary closures; and many issues were closed against one change, so closures overstate improvements.</p>
+
+<figure>
+<div class="plate">
+<svg viewBox="0 0 680 300" role="img" aria-labelledby="f5t">
+<title id="f5t">Two panels. Left: issues filed, closed as done and closed as not planned per week, counted by the date of each event, with the 31 October triage and the November grooming marked. Right: for issues filed in each week, how many were done, not planned or open on 5 November, with each segment labeled.</title>
+<text x="20" y="22" font-weight="600">Retrospective issues per week, infrastructure repository</text>
+<text x="190" y="39" text-anchor="middle" class="dim">A. By date of event</text>
+<text x="525" y="39" text-anchor="middle" class="dim">B. By week filed: where they ended</text>
+<line class="axis" x1="50" y1="50" x2="50" y2="230"/><line class="axis" x1="50" y1="230" x2="330" y2="230"/>
+<line class="axis" x1="380" y1="50" x2="380" y2="230"/><line class="axis" x1="380" y1="230" x2="660" y2="230"/>
+<line class="grid" x1="50" y1="148.2" x2="330" y2="148.2"/><line class="grid" x1="380" y1="148.2" x2="660" y2="148.2"/>
+<text x="44" y="152" text-anchor="end" class="dim">100</text><text x="44" y="234" text-anchor="end" class="dim">0</text><text x="44" y="68" text-anchor="end" class="dim">200</text>
+<line class="grid" x1="50" y1="66.4" x2="330" y2="66.4"/><line class="grid" x1="380" y1="66.4" x2="660" y2="66.4"/>
+<!-- scale 0.818 px per issue -->
+<rect class="barb" x="65" y="154.7" width="22" height="75.3"/><rect class="barg" x="89" y="212.8" width="22" height="17.2"/><rect class="barn" x="113" y="227.5" width="22" height="2.5"/>
+<text x="76" y="150" text-anchor="middle" class="dim">92</text><text x="100" y="208" text-anchor="middle" class="dim">21</text><text x="124" y="223" text-anchor="middle" class="dim">3</text>
+<rect class="barb" x="155" y="59.8" width="22" height="170.2"/><rect class="barg" x="179" y="195.6" width="22" height="34.4"/><rect class="barn" x="203" y="179.3" width="22" height="50.7"/>
+<text x="166" y="55" text-anchor="middle" class="dim">208</text><text x="190" y="191" text-anchor="middle" class="dim">42</text><text x="214" y="175" text-anchor="middle" class="dim">62</text>
+<rect class="barb" x="245" y="185" width="22" height="45"/><rect class="barg" x="269" y="90.9" width="22" height="139.1"/><rect class="barn" x="293" y="208.7" width="22" height="21.3"/>
+<text x="256" y="181" text-anchor="middle" class="dim">55</text><text x="280" y="86" text-anchor="middle" class="dim">170</text><text x="304" y="204" text-anchor="middle" class="dim">26</text>
+<text x="280" y="70" text-anchor="middle" class="tw2">grooming</text>
+<text x="214" y="160" text-anchor="middle" class="tw2">triage</text>
+<g class="dim"><text x="100" y="246" text-anchor="middle">19 Oct</text><text x="190" y="246" text-anchor="middle">26 Oct</text><text x="280" y="246" text-anchor="middle">2 Nov (4 days)</text></g>
+<!-- B stacked -->
+<rect class="barg" x="405" y="185.8" width="50" height="44.2"/><rect class="barn" x="405" y="167.8" width="50" height="18"/><rect class="barw" x="405" y="154.7" width="50" height="13.1"/>
+<text x="430" y="150" text-anchor="middle" class="dim">92</text>
+<rect class="barg" x="495" y="124.5" width="50" height="105.5"/><rect class="barn" x="495" y="68.9" width="50" height="55.6"/><rect class="barw" x="495" y="59.9" width="50" height="9"/>
+<text x="520" y="55" text-anchor="middle" class="dim">208</text>
+<rect class="barg" x="585" y="189.1" width="50" height="40.9"/><rect class="barn" x="585" y="188.3" width="50" height="0.8"/><rect class="barw" x="585" y="185" width="50" height="3.3"/>
+<text x="610" y="180" text-anchor="middle" class="dim">55</text>
+<!-- B segment labels: done (green), not planned (gray), open (amber) -->
+<text x="459" y="212" class="td">54</text><text x="459" y="181" class="dim">22</text><text x="459" y="165" class="tw2">16</text>
+<text x="549" y="181" class="td">129</text><text x="549" y="101" class="dim">68</text><text x="549" y="68" class="tw2">11</text>
+<text x="639" y="213" class="td">50</text><text x="639" y="197" class="dim">1</text><text x="639" y="183" class="tw2">4</text>
+<g class="dim"><text x="430" y="246" text-anchor="middle">19 Oct</text><text x="520" y="246" text-anchor="middle">26 Oct</text><text x="610" y="246" text-anchor="middle">2 Nov</text></g>
+<rect class="barb" x="50" y="270" width="12" height="12"/><text x="68" y="281" class="dim">filed</text>
+<rect class="barg" x="120" y="270" width="12" height="12"/><text x="138" y="281" class="dim">closed, done</text>
+<rect class="barn" x="240" y="270" width="12" height="12"/><text x="258" y="281" class="dim">closed, not planned</text>
+<rect class="barw" x="400" y="270" width="12" height="12"/><text x="418" y="281" class="dim">still open</text>
+</svg>
+</div>
+<figcaption>Figure 3. Retrospective issues per week. Panel A counts each event in the week it happened: of the 62 not-planned closures in the week of 26 October, 61 are the 31 October triage; the week of 2 November includes the passes of 3 November (92 of the 170 done) and 5 November (23 of the 26 not planned). Panel B follows each filing week's issues to their state on 5 November (segments: done, not planned, open). Weeks start on Monday; the last week has four days.</figcaption>
+</figure>
+
+<h3>8.2 A document check with no applier</h3>
+
+<p>Since 9 September a nightly pass has read the team's documents and proposed corrections where a claim no longer matched the repository. By 5 November it had written 316 proposals in 34 review notes. It had a detector and a writer but no automatic applier: a person or an agent had to read each note and make the change. Some were applied (81 commits cite the pass). A check on 5 November found 98 proposals whose quoted stale sentence was still in the target document. Not every one is a failure: a reader may have judged a proposal wrong, and the notes do not record such rejections.</p>
+
+<p>Diagnosis: the loop had steps 1 and 3 but no reliable step 5, no recorded step 4 (which proposals were rejected, and why) and no step 6. The proposed evaluation (C2) gives each proposal a stable identity and a lifecycle in which "applied" means a merged change plus a check that the target now holds the new text. None of it has shipped.</p>
+
+<h3>8.3 Adding the evaluation step</h3>
+
+<p>Section 9.1 finds the evaluation step mostly missing. On 6 November the team scheduled a change to add it (C22), and this paper's public release was held so that a later version could report the result. The change has four parts:</p>
+
+<ol>
+<li><strong>A prediction on each fix.</strong> A retrospective filing that proposes a fix carries a line of the form <code>Predicts: what changes — by how much — measured how</code>.</li>
+<li><strong>A verdict at a later wrap.</strong> The wrap lists retrospective issues whose prediction is due and posts one comment on each, beginning <code>kaizen-eval: held | not-held | unmeasurable — keep | reverse</code>. Keep or reverse is loop step 7.</li>
+<li><strong>A record of authorship failures.</strong> A pull request opened from a remote session (a task run in the model vendor's cloud instead of locally) is labeled as such, and a failure is recorded in a comment before the commits are re-authored, since that removes the evidence.</li>
+<li><strong>One count.</strong> A single command counts predictions filed, verdicts recorded, held against not held, and authorship failures per remote-session pull request (Appendix B.6).</li>
+</ol>
+
+<p>We state the predictions here, before any data, so that a later version can test them. The window runs from the day the change lands to about 20 November. P1 to P3 are directional predictions with thresholds; P4 is a planned descriptive analysis. The items are as written in v0.5.</p>
+
+<ul>
+<li><strong>P1.</strong> At least half of the retrospective fixes filed in the window carry a prediction. Baseline: no sampled issue recorded one.</li>
+<li><strong>P2.</strong> At least half of the predictions that fall due in the window receive a verdict. Baseline: 0 of 20 sampled done issues recorded a measured effect (Section 9.1).</li>
+<li><strong>P3.</strong> Authorship failures fall below 2 in 20 eligible remote-session pull requests. Baseline: 18 failures in 20 eligible pull requests before 4 November (Section 9.2).</li>
+<li><strong>P4.</strong> We make no prediction about the share of verdicts that are "held". A share near 100% would suggest that the predictions are set too easily to fail; a share near zero, that most fixes do not work as intended. Either is a finding.</li>
+</ul>
+
+<p>If P1 or P2 fails, the step exists in name only, as the document check of Section 8.2 had a detector and no applier. <strong>How firmly the predictions were stated in advance.</strong> The text of v0.5 is a file written on 6 November 2026 at 14:02 MST, before the instruction change merged that evening at 18:40. The first backup copy of the author's notes that contains it was taken at 03:17 MST on 7 November (10:17 UTC); the earliest prediction in the data is from 7 November 02:36 UTC and the earliest verdict from 11 November. The backup is 7 hours 41 minutes later than the first prediction, so it does not show that the text came first; only the file time does, and a file time can be changed. There is no external registry, so a reader can inspect the claim only through those times.</p>
+
+<h2><span class="n">9</span>Results</h2>
+
+<h3>9.1 Implemented and verified</h3>
+
+<p>Of the 20 done issues sampled, 18 named a merged change, either a commit on the main branch citing the issue (14) or a change named in the closing comment (4). Two closed with no change named. None of the 20 recorded a measurement showing the change had its intended effect. With 20 issues these proportions are imprecise: 18 of 20 gives an exact 95% interval of 68% to 99%, and 0 of 20 gives 0% to 17%, so the sample is consistent with as many as about one done issue in six recording a measured effect, but it contains none. Most done issues were implemented and verification is rare. That is the gap the evaluation step of Figure 2 marks.</p>
+
+<p>Of the 91 issues closed as not planned, 61 are duplicates closed in the 31 October pass, each naming the issue it duplicates. The other 30, including the 23 of the 5 November pass, were not coded by reason, so we cannot say how many were judged not worth doing and how many were already moot.</p>
+
+<h3>9.2 Two cases: one measured effect, one awaiting evaluation</h3>
+
+<p><strong>The CI gate: an observed latency improvement.</strong> At 18:52 on 27 October the retrospective of sprint 318 filed that a pull request's gate had needed three attempts of about 55 minutes each, timing out on test suites the change did not touch (C3). By 05:24 on 28 October the team had raised the per-suite time limits where a loaded runner had been measured (C4) and capped the job at 90 minutes (C5). That removed the timeouts and nothing else: the slowest runner's median stayed between 51 and 72 minutes through 2 November. At 07:03 on 1 November the product owner agent measured the cause: all twelve recent runs had executed all 344 suites for one-line edits to data and instruction files (C7). Three pull requests made a push run only the suites that read the changed files, plus a smoke set (a small fixed group run on every push), and added a full run of every suite scheduled once a day; they merged between 09:44 on 1 November and 02:49 on 2 November (C8, C9, C10). Appendix B.5 gives the sequence.</p>
+
+<figure>
+<div class="plate">
+<svg viewBox="0 0 680 340" role="img" aria-labelledby="f6t">
+<title id="f6t">Per day from 26 October to 5 November: the median gate time on the slowest runner, the range between the fastest and slowest runners' medians, and the number of gate runs measured, with the interventions marked. From 3 November, diamonds show each attempt of the daily full run of all suites, which took 13 to 49 minutes.</title>
+<text x="20" y="22" font-weight="600">CI gate time per day, infrastructure repository (minutes)</text>
+<line class="axis" x1="60" y1="50" x2="60" y2="200"/><line class="axis" x1="60" y1="200" x2="660" y2="200"/>
+<text x="54" y="54" text-anchor="end" class="dim">75</text>
+<line class="grid" x1="60" y1="126" x2="660" y2="126"/><text x="54" y="130" text-anchor="end" class="dim">37</text>
+<text x="54" y="204" text-anchor="end" class="dim">0</text>
+<!-- range bars: min..max of per-runner medians; y = 200 - 2*min -->
+<g class="fillsoftbar">
+<rect x="85" y="94" width="10" height="84"/><rect x="139" y="82" width="10" height="96"/><rect x="193" y="84" width="10" height="86"/><rect x="247" y="56" width="10" height="114"/><rect x="301" y="80" width="10" height="116"/><rect x="355" y="58" width="10" height="140"/><rect x="409" y="72" width="10" height="122"/><rect x="463" y="98" width="10" height="86"/><rect x="517" y="192" width="10" height="4"/><rect x="571" y="190" width="10" height="8"/><rect x="625" y="192" width="10" height="4"/>
+</g>
+<polyline class="ln" points="90,94 144,82 198,84 252,56 306,80 360,58 414,72 468,98 522,192 576,190 630,192"/>
+<g><circle cx="90" cy="94" r="4" class="barb"/><circle cx="144" cy="82" r="4" class="barb"/><circle cx="198" cy="84" r="4" class="barb"/><circle cx="252" cy="56" r="4" class="barb"/><circle cx="306" cy="80" r="4" class="barb"/><circle cx="360" cy="58" r="4" class="barb"/><circle cx="414" cy="72" r="4" class="barb"/><circle cx="468" cy="98" r="4" class="barb"/><circle cx="522" cy="192" r="4" class="barg"/><circle cx="576" cy="190" r="4" class="barg"/><circle cx="630" cy="192" r="4" class="barg"/></g>
+<g class="dim">
+<text x="90" y="86" text-anchor="middle">53</text><text x="144" y="74" text-anchor="middle">59</text><text x="198" y="76" text-anchor="middle">58</text><text x="252" y="48" text-anchor="middle">72</text><text x="306" y="72" text-anchor="middle">60</text><text x="360" y="50" text-anchor="middle">71</text><text x="414" y="64" text-anchor="middle">64</text><text x="468" y="90" text-anchor="middle">51</text><text x="522" y="184" text-anchor="middle">4</text><text x="576" y="182" text-anchor="middle">5</text><text x="630" y="184" text-anchor="middle">4</text>
+<text x="90" y="216" text-anchor="middle">26 Oct</text><text x="198" y="216" text-anchor="middle">28</text><text x="306" y="216" text-anchor="middle">30</text><text x="414" y="216" text-anchor="middle">1 Nov</text><text x="522" y="216" text-anchor="middle">3</text><text x="630" y="216" text-anchor="middle">5</text>
+<text x="30" y="232" class="dim">runs</text>
+<text x="90" y="232" text-anchor="middle">55</text><text x="144" y="232" text-anchor="middle">43</text><text x="198" y="232" text-anchor="middle">54</text><text x="252" y="232" text-anchor="middle">96</text><text x="306" y="232" text-anchor="middle">34</text><text x="360" y="232" text-anchor="middle">8</text><text x="414" y="232" text-anchor="middle">47</text><text x="468" y="232" text-anchor="middle">111</text><text x="522" y="232" text-anchor="middle">158</text><text x="576" y="232" text-anchor="middle">94</text><text x="630" y="232" text-anchor="middle">39</text>
+</g>
+<path class="lnw" d="M198,242 L198,237"/><text x="245" y="254" text-anchor="end" class="dim">27–28 Oct: C3 filed;</text><text x="245" y="268" text-anchor="end" class="dim">limits raised, 90-min cap</text>
+<path class="lnw" d="M252,272 L252,237"/><text x="270" y="284" text-anchor="middle" class="dim">29 Oct: C6, waiter gives up at 45 min</text>
+<path class="lnw" d="M414,242 L414,237"/><text x="414" y="254" text-anchor="middle" class="dim">1 Nov: cause measured, C7</text>
+<path class="lnw" d="M495,300 L495,206"/><text x="501" y="300" class="dim">2 Nov 02:49: selective CI (C10)</text>
+<!-- daily full run (all suites), one diamond per attempt of the gates job; y = 200 - 2*minutes -->
+<g><path class="acc" d="M545,101.2 L550,106.2 L545,111.2 L540,106.2 z"/><path class="acc" d="M552,169 L557,174 L552,179 L547,174 z"/><path class="acc" d="M599,97 L604,102 L599,107 L594,102 z"/><path class="acc" d="M601,147.2 L606,152.2 L601,157.2 L596,152.2 z"/><path class="acc" d="M653,160.4 L658,165.4 L653,170.4 L648,165.4 z"/></g>
+<g class="ta"><text x="552" y="110" font-size="11.5">47</text><text x="552" y="164" text-anchor="middle" font-size="11.5">13</text><text x="606" y="106" font-size="11.5">49</text><text x="608" y="156" font-size="11.5">24</text><text x="660" y="169" font-size="11.5">17</text></g>
+<rect x="60" y="318" width="10" height="12" class="fillsoftbar"/><text x="76" y="328" class="dim">range of runner medians</text>
+<circle cx="236" cy="324" r="4" class="barb"/><text x="246" y="328" class="dim">slowest runner's median</text>
+<path class="acc" d="M420,319 L425,324 L420,329 L415,324 z"/><text x="432" y="328" class="dim">daily full run, one attempt (all suites)</text>
+</svg>
+</div>
+<figcaption>Figure 4. CI gate time per day from the nightly sweep, each day covering the 24 hours to 03:30. Dots: the median on whichever runner had the slowest median that day; before the change these ranged from 51 to 72 minutes, with a median of 59.5 over the eight days 26 October to 2 November. Gray bars: range of runner medians. "Runs": gate runs measured. The 2 November point ends 41 minutes after the selective-CI merge; 31 October had only 8 runs. Diamonds, the reference series: each attempt of the daily full run of every suite, at its start time (3 November: 47 and 13 minutes; 4 November: 49 and 24; 5 November: 17). After 2 November a push run executes fewer suites, so the dots after that date measure a smaller workload, and runner load also differs between the periods.</figcaption>
+</figure>
+
+<p>What this shows (Figure 4) is a latency improvement for a push: the slowest runner's daily median fell from between 51 and 72 minutes (median 59.5 over eight days) to 4 or 5, and the spread between runners closed. The comparison mixes two changes: a smaller workload and a lighter runner load. A push now runs only the suites that read the changed files, so the gate does less work; and the earlier days had loaded runners (the cause behind C4), which the later days may not have had. The records cannot separate a smaller workload from lighter runner load, so the paper claims only that the push gate got faster and now does less work. The daily full run is a reference series for the full workload under different load, not a controlled comparison: its gate job made five attempts on three days and took 47, 13, 49, 24 and 17 minutes, and the two successful attempts took 24 and 17.</p>
+
+<p>The case does not show that quality held. Running fewer suites per push trades coverage for speed, and the records do not measure the cost: how often the full run catches a failure the push runs missed, or how many such failures reached the main branch. Three of the five full-run attempts failed. We did not determine whether any was a defect the push runs had missed, which is the measurement this case lacks. The two first fixes were correct for the timeouts and did not move the median; it moved only after the cause had been measured (C7).</p>
+
+<p><strong>Commit authorship: recurrent non-compliance, then an intervention awaiting evaluation.</strong> Tasks run as remote sessions open pull requests whose commits carry the model vendor's default author and whose descriptions end with a generated footer, against the team's rule that nothing is attributed to the model. The stakeholder set that rule on 19 October 2026 as a personal preference; the paper does not argue for it. Compliance is easy to observe, which makes it a useful case (Figure 5). The retrospective of sprint 330 filed it at 18:55 on 28 October: six of eight such pull requests needed their commits re-authored by hand (C11). The fix was an instruction in the task brief. Five more filings followed, three of them before any mechanism: seven of seven (C12), every such pull request in one sprint (C13) and five of five (C14). The three filings that give counts (C11, C12, C14) report 18 failures in 20 eligible pull requests. Two mechanisms came later: a command that strips the footer before the first review (merged 23:36 on 2 November, C16) and a launch-tool change that writes a commit-identity section into every brief that lacks one (merged 02:21 on 4 November, C17). One recurrence followed: the footer came back whenever a pull request's description was edited (C18, fixed the same evening, C19). Appendix B.5 lists all six filings, including C15, which gives no count.</p>
+
+<figure>
+<div class="plate">
+<svg viewBox="0 0 680 250" role="img" aria-labelledby="f7t">
+<title id="f7t">Timeline from 28 October to 5 November of six retrospective filings about commit authorship, with their counts, and three interventions: an instruction, footer stripping and automatic identity insertion.</title>
+<text x="20" y="22" font-weight="600">Commit authorship: filings and interventions</text>
+<line class="axis" x1="40" y1="120" x2="660" y2="120"/>
+<!-- 28 Oct x=60; 1 day = 70 px -->
+<g class="dim"><text x="60" y="140" text-anchor="middle">28 Oct</text><text x="130" y="140" text-anchor="middle">29</text><text x="200" y="140" text-anchor="middle">30</text><text x="270" y="140" text-anchor="middle">31</text><text x="340" y="140" text-anchor="middle">1 Nov</text><text x="410" y="140" text-anchor="middle">2</text><text x="480" y="140" text-anchor="middle">3</text><text x="550" y="140" text-anchor="middle">4</text><text x="620" y="140" text-anchor="middle">5</text></g>
+<!-- filings above -->
+<circle cx="115" cy="104" r="5" class="barw"/><text x="115" y="94" text-anchor="middle" class="dim">6 of 8</text><text x="115" y="80" text-anchor="middle" class="dim">C11</text>
+<circle cx="133" cy="104" r="5" class="barw"/><text x="150" y="62" text-anchor="middle" class="dim">7 of 7 (C12)</text>
+<circle cx="185" cy="104" r="5" class="barw"/><text x="195" y="44" text-anchor="middle" class="dim">all (C13)</text>
+<circle cx="267" cy="104" r="5" class="barw"/><text x="267" y="94" text-anchor="middle" class="dim">5 of 5</text><text x="267" y="80" text-anchor="middle" class="dim">C14</text>
+<circle cx="547" cy="104" r="5" class="barw"/><text x="520" y="94" text-anchor="middle" class="dim">+2 review rounds</text><text x="520" y="80" text-anchor="middle" class="dim">C15</text>
+<circle cx="598" cy="104" r="5" class="barw"/><text x="625" y="62" text-anchor="middle" class="dim">footer back on edit</text><text x="625" y="48" text-anchor="middle" class="dim">C18</text>
+<!-- interventions below -->
+<path class="ln" d="M117,124 L117,170"/><text x="117" y="184" text-anchor="middle">instruction</text><text x="117" y="198" text-anchor="middle" class="dim">in the brief</text>
+<path class="lnw" d="M479,148 L479,170"/><text x="479" y="184" text-anchor="middle" class="tw2">footer stripped</text><text x="479" y="198" text-anchor="middle" class="dim">C16</text>
+<path class="lnw" d="M556,148 L556,214"/><text x="556" y="228" text-anchor="middle" class="tw2">identity written into every brief</text><text x="556" y="242" text-anchor="middle" class="dim">C17</text>
+<circle cx="100" cy="230" r="5" class="barw"/><text x="112" y="234" class="dim">retrospective filing</text>
+</svg>
+</div>
+<figcaption>Figure 5. Commit authorship. Above the axis, six retrospective filings with the counts they reported; below, the interventions. The instruction did not stop the filings; the two mechanisms came after the fourth. Counts are failures per eligible pull request (opened by a remote-session task) in one sprint. The three filings with counts report 18 failures in 20 eligible pull requests; the filing for sprint 342 reports all, without a count. The rate after 4 November is not measured (Section 9.3, P3).</figcaption>
+</figure>
+
+<p>The case shows recurrent non-compliance with an instruction, followed by mechanisms whose effect is not yet known. Neither mechanism is mistake-proofing in the sense of Section 2.2. The identity section assures that the instruction is present, not that it is obeyed, and footer stripping repairs the output after the fact; neither refuses a wrongly authored commit, which a check that rejected it before review would. At the cutoff the footer stripping had run for under three days and the identity section for under two, and one recurrence (C18) came after them. The deciding measure is failures per eligible pull request before and after 4 November, over at least a week. Eligible pull requests are not marked in the records, and re-authoring rewrites the commits that would show a failure, so the rate has to be counted from the sprint reports, which we have not done.</p>
+
+<h3>9.3 The evaluation step: results of the stated predictions</h3>
+
+<p><strong>Times, cohorts and sources.</strong> The instruction change merged on 6 November 2026 at 18:40 MST (7 November 01:40 UTC). The registered cohort is every retrospective issue created from 6 November 00:00 UTC, which is 25 hours 40 minutes before the change; those 17 issues are reported separately. A prediction is a line starting <code>Predicts:</code> in the issue body as read at extraction; edit history is not available, so we cannot show when each line was written. A due date is the calendar date the filer wrote after <code>due</code>. A verdict is the last comment starting <code>kaizen-eval:</code> that existed at the time stated. Extraction was on 22 November 2026 at 14:52 MST (21:52 UTC); the planned end is 20 November 23:59 MST (21 November 06:59 UTC). The sources are issues labeled <code>from-retro</code> on the infrastructure repository and on the product repository's tracker, read with every page of the API. A frozen, de-identified export (<code>kaizen-v0.6-export-2026-11-22.json</code>: times, state, prediction fields and verdict markers, no issue text or numbers), the analysis script (<code>kaizen-v0.7-analysis.ts</code>) and its output are in the folder <code>data/</code> beside this paper. Every figure here except the keep and reverse counts comes from the export alone (script modes <code>analyze</code> and <code>states</code>). The keep and reverse counts need comment text, which the export lacks, so the <code>decisions</code> mode reads the comments again from the forge. It ran on 25 November 2026 and was limited to the extraction time: it skipped issues created, and verdict comments posted, after 22 November 14:52 MST (21:52 UTC) (a check on 25 November found 22 verdict comments, on 22 issues, posted after that time; they are not counted, and the 129 therefore matches the extraction). Appendix B.6 gives the wrap's rules, the due-date gap and the count that was corrected.</p>
+
+<div class="tw"><table>
+<thead><tr><th>Measure</th><th class="num">Count</th><th class="num">Of</th><th class="num">Share</th><th class="num">Nominal 95% interval</th><th>Item</th></tr></thead>
+<tbody>
+<tr><td>Retrospective issues with a prediction, at extraction</td><td class="num">303</td><td class="num">323 filed</td><td class="num">94%</td><td class="num">91 to 96%</td><td>P1: held</td></tr>
+<tr><td>Same, issues created after the change merged</td><td class="num">303</td><td class="num">306</td><td class="num">99%</td><td class="num">97 to 100%</td><td>P1, sensitivity</td></tr>
+<tr><td>Same, at 20 Nov 23:59 (issues created by then)</td><td class="num">270</td><td class="num">290</td><td class="num">93%</td><td class="num">90 to 96%</td><td>P1, planned end</td></tr>
+<tr><td>Due predictions with a verdict, at extraction (due by 22 Nov)</td><td class="num">129</td><td class="num">156 due</td><td class="num">83%</td><td class="num">76 to 88%</td><td>P2: held</td></tr>
+<tr><td>&nbsp;&nbsp;on closed issues</td><td class="num">114</td><td class="num">119 due</td><td class="num">96%</td><td class="num">91 to 98%</td><td>P2, by state</td></tr>
+<tr><td>&nbsp;&nbsp;on open issues</td><td class="num">15</td><td class="num">37 due</td><td class="num">41%</td><td class="num">26 to 57%</td><td>P2, by state</td></tr>
+<tr><td>Due by 20 Nov, verdict recorded by 20 Nov 23:59</td><td class="num">111</td><td class="num">127 due</td><td class="num">87%</td><td class="num">81 to 92%</td><td>P2, planned end</td></tr>
+<tr><td>Held, of decidable verdicts</td><td class="num">95</td><td class="num">113</td><td class="num">84%</td><td class="num">76 to 90%</td><td>P4 (self-graded)</td></tr>
+<tr><td>&nbsp;&nbsp;on closed issues</td><td class="num">85</td><td class="num">100</td><td class="num">85%</td><td class="num">77 to 91%</td><td>P4, by state</td></tr>
+<tr><td>&nbsp;&nbsp;on open issues</td><td class="num">10</td><td class="num">13</td><td class="num">77%</td><td class="num">50 to 92%</td><td>P4, by state</td></tr>
+<tr><td>Held, of all verdicts</td><td class="num">95</td><td class="num">129</td><td class="num">74%</td><td class="num">65 to 81%</td><td>P4 (self-graded)</td></tr>
+<tr><td>Held, of all due predictions</td><td class="num">95</td><td class="num">156</td><td class="num">61%</td><td class="num">53 to 68%</td><td>P4 (self-graded)</td></tr>
+<tr><td>Unmeasurable, of all verdicts</td><td class="num">16</td><td class="num">129</td><td class="num">12%</td><td class="num">8 to 19%</td><td>P4</td></tr>
+<tr><td>Verdicts that end in keep (none in reverse)</td><td class="num">129</td><td class="num">129</td><td class="num">100%</td><td class="num">97 to 100%</td><td>Step 7</td></tr>
+<tr><td>Eligible remote-session pull requests</td><td class="num">0 observed</td><td class="num">tracked sources</td><td class="num">n/a</td><td class="num">n/a</td><td>P3: not testable</td></tr>
+</tbody></table></div>
+<p class="tcap">Table 4. Results for the four items of Section 8.3, 6 to 22 November 2026, and for step 7. Of the 129 verdicts, 95 held, 18 did not hold and 16 were unmeasurable (at the planned end, 84, 15 and 12). Retrospective issues only. The 147 predictions not yet due at extraction have no verdict. "By state" is the issue's state at extraction. Intervals are nominal 95% Wilson score intervals that treat issues as independent and the markers as correct. "0 observed" means none was identified in the labeled pull requests and session records; it is not a confirmed zero.</p>
+
+<p><strong>What the intervals mean.</strong> Each row counts every issue in a defined cohort, so it describes that cohort exactly if the enumeration and the markers are right. The nominal interval is a rough guide only: issues are not independent (several share a retrospective, a filer and a grading session), so the true uncertainty is wider, and it does not cover a missing or edited record or a biased grade. We did not analyze clusters, because the export carries no retrospective or fix identifiers.</p>
+
+<p><strong>P1 and P2 held.</strong> Both held with wide margins (Table 4). Of the 303 predictions, 179 record a finding seen once, 114 a finding seen more than once, 6 a count of zero and 4 an unreadable count. We did not check why the 20 issues without a prediction lack one; 17 were filed before the change merged. <strong>By issue state, P2 holds on closed issues and not on open ones.</strong> Of the 119 due predictions on closed issues, 114 have a verdict (96%); of the 37 on open issues, 15 do (41%). So 22 of the 27 due predictions without a verdict are on open issues, and 5 are on closed ones. The wrap skips an issue whose fix has not merged, but the export's state does not separate such an issue from one whose fix merged and was left open, so we cannot say how much of the gap is that rule. Other rules (at most five verdicts per wrap, wraps not yet run) may also contribute, and the evaluated set may differ from the due set in ways we cannot see; for example, easier fixes may be graded first. The first verdict came a median of 0.5 days after the due date (range 0.4 to 4.0, n = 129).</p>
+
+<p><strong>P3: not testable.</strong> The label for remote-session pull requests exists and no pull request carries it. The records of remote sessions hold 564 files, the last written on 5 November at 13:10, before the step landed, so no eligible pull request was identified in the tracked sources. The records point to a first cause: no remote session ran. Remote sessions had been funded by a cloud-credit grant that expired on 5 November [1]; from then they would draw on the same usage limits as the rest of the team. The same day the team set remote sessions to stop launching above 85% of the weekly usage limit and moved them onto the long-running agents' account, so they no longer drew on separate capacity. Sprint planning marks a task for a remote session only when local capacity is short, and from 6 November it marked none. We found no recorded decision to stop remote sessions, so we report this as an effect of those changes. The one later attempt, on 17 November, failed before it started because the code host's app needed new permissions approved by the owner. The authorship case of Section 9.2 therefore still awaits evaluation. We did not check whether a pull request appears in more than one of the three filings behind the baseline of 18 in 20.</p>
+
+<p><strong>P4: analysis as planned, with no prediction.</strong> Of the 113 verdicts that could be decided (held or not held), 95 held (84%; 76% to 90%). Of all 129 verdicts, 95 held (74%; 65% to 81%) and 16 were "unmeasurable"; of all 156 due predictions, 95 held (61%; 53% to 68%). By state, 85 of 100 decidable verdicts on closed issues held and 10 of 13 on open ones. The original wording stands (Section 8.3). We withdraw its diagnostic use: the share is self-graded (Section 11), "near 100%" was never defined, and a share of 84% cannot exclude easy predictions, selective evaluation or grading error. The held share has been steady across three cumulative readings, 84 of 99 (84.8%) at the planned end on 20 November, 90 of 105 (85.7%) in a count run at 07:00 on 22 November, and 95 of 113 (84.1%) at extraction later the same day. The spread across the three readings is 1.6 percentage points. They are cumulative readings of one growing set, so they do not show whether the share is stable.</p>
+
+<p><strong>Step 7: retain or reverse.</strong> We counted the decision word on each of the 129 verdict comments, from the comment text read through the forge's API with every page (output in <code>data/</code>). All 129 end in keep and none in reverse, including the 18 not-held verdicts and the 16 unmeasurable ones. The comments we read describe partial results (for example, a failure rate that fell but did not reach zero), so a keep after a not-held verdict can mean the fix helped in part. We did not read all 18, or check whether any not-held verdict led to a follow-up task. Step 7 produced no reversal in 17 days, so the reverse branch of step 7 has not been used.</p>
+
+<h2><span class="n">10</span>Where the analogy fails</h2>
+
+<ul>
+<li><strong>Quality defined by the customer.</strong> TQM starts from what the customer values. Almost all of the reference case's improvement work is internal (faster gates, cleaner commits, better briefs), and we did not measure customer-visible outcomes such as defects found by users or time from request to release.</li>
+<li><strong>The whole system.</strong> Deming warned against improving one part at the expense of the whole. Faster CI by running fewer suites is a local optimization until its effect on escaped defects is measured.</li>
+<li><strong>Variation.</strong> Shewhart's central idea, separating ordinary variation from causes worth acting on, is absent: a single bad sprint can produce a retrospective issue, and no control limits decide which findings merit action.</li>
+<li><strong>Leadership and incentives.</strong> At Toyota, management commitment and the absence of blame are what make workers pull the cord. Agents are not punished or rewarded, so "proposals are not punished" does not describe a human incentive here. What makes agents file is the method's rule that every finding ends somewhere.</li>
+<li><strong>The cost of standards.</strong> Each improvement adds a rule, gate or instruction, and standards that grow without pruning become their own source of defects. TPS keeps standardized work short. The team has no measure of the cost of its accumulated rules.</li>
+<li><strong>Fresh-context agents.</strong> The claim that lessons survive only in files applies to this deployment's sprint agents; long-running agents keep some context, and the model brings knowledge no file holds.</li>
+</ul>
+
+<h2><span class="n">11</span>Limitations</h2>
+
+<ul>
+<li><strong>One team, short windows.</strong> The label dates from 20 October, the split from 3 November, and the evaluation step covers 6 to 22 November. Sprints are not independent, and the periods do not establish a trend.</li>
+<li><strong>Closure is not improvement, and the cases were selected.</strong> Grooming closed many issues against one change, and the sample shows implementation, not effect. Not-planned closures other than the 61 duplicates were not coded by reason. The two cases were chosen because they had measurements, and the CI reference series is five attempts over three days, so it is not a controlled comparison.</li>
+<li><strong>Self-set and self-reported inputs.</strong> The planner sets and records the split, and there is no independent measure of where capacity went (Section 7). Table 2 rests on short public accounts, several read through secondary sources and one from abstracts, and is a qualitative map.</li>
+<li><strong>The grader is not independent, and the markers are records.</strong> The agents that write a prediction also run its measure and write the verdict, and the team has no grader outside what they can change. A held share therefore shows that agents judged their own predictions to hold; it covers only the evaluated fraction of the due predictions (61% held of all due, 74% of verdicts, 84% of decidable ones). A marker shows that a prediction, a verdict or a keep was written, not that the measurement ran, and we did not audit a sample of verdicts for whether the measure ran or its value matches the verdict. Self-Improvement Memory [41] scores predicted against observed outcomes on held-out tasks; this deployment has no such scorer.</li>
+<li><strong>Adoption, not effect.</strong> P1 and P2 test whether the step ran, and their thresholds were low and set by us. The step landed for every wrap at once, so there is no concurrent control. The 16 "unmeasurable" verdicts are outside the decidable held share (84%), and every verdict ended in keep, so the reverse branch of step 7 has not been used.</li>
+<li><strong>P3 untested.</strong> No eligible remote-session pull request was identified in the tracked sources, so the authorship mechanisms of Section 9.2 are still unevaluated.</li>
+<li><strong>Counts depend on the reading.</strong> Predictions are read from issue bodies as at extraction, without edit history; the count moved between readings (Section 9.3); creation filters are in UTC; one verdict per issue is counted; issue state is as at extraction; and the intervals are nominal and ignore clustering.</li>
+<li><strong>Author's position.</strong> The author runs the reference case, and the analysis was drafted with AI assistance; the de-identified export lets an outside reader check every count except the keep and reverse counts, which need the forge.</li>
+</ul>
+
+<h2><span class="n">12</span>Conclusion</h2>
+
+<p><strong>Original cohort, to 5 November.</strong> In the reference case the early steps of the improvement loop were in place and the evaluation step was mostly missing. Detection and containment are well developed, and proposals follow in volume once every finding has to end somewhere: 355 retrospective issues on the infrastructure repository and 62 on the product repository in 16 days. Of 20 sampled issues closed as done, 18 named a merged change and none recorded an effect; the one large latency gain has an unmeasured quality cost, and the authorship mechanisms were less than three days old at the cutoff. The 70/30 split is a policy that no data yet supports or refutes. <strong>Follow-up cohort, 6 to 22 November.</strong> The team added a prediction at filing and a verdict at a later wrap. In this deployment, over 17 days, 303 of 323 retrospective issues carried a prediction, 129 of 156 due predictions received a verdict, and 95 of 113 decidable verdicts held. All 129 verdicts ended in keep. These figures show that predictions and verdicts were recorded, not that the fixes work (Section 11). The prediction about authorship failures could not be tested. What to build next: audit a sample of verdicts and give each prediction a check the proposing agent cannot grade; classify what the full CI run catches that push runs miss; act on each verdict; measure recurrence per eligible task; code why proposals are rejected; and measure the cost of the standards.</p>
+
+<h2><span class="n">A</span>Appendix: planned allocation, sprints 394 to 408</h2>
+
+<figure>
+<div class="plate">
+<svg viewBox="0 0 680 300" role="img" aria-labelledby="fat">
+<title id="fat">Stacked bars for sprints 394 to 408 showing the planned product share and infrastructure share of each committed sprint backlog.</title>
+<text x="20" y="24" font-weight="600">Planned product and infrastructure share, sprints 394 to 408 (3 to 5 November 2026)</text>
+<line class="axis" x1="60" y1="60" x2="60" y2="240"/>
+<line class="axis" x1="60" y1="240" x2="660" y2="240"/>
+<line class="grid" x1="60" y1="114" x2="660" y2="114"/>
+<text x="54" y="64" text-anchor="end" class="dim">100%</text>
+<text x="54" y="118" text-anchor="end" class="dim">70%</text>
+<text x="54" y="244" text-anchor="end" class="dim">0</text>
+<g>
+<rect class="barb" x="70" y="114" width="32" height="126"/><rect class="barw" x="70" y="60" width="32" height="54"/>
+<rect class="barb" x="110" y="114" width="32" height="126"/><rect class="barw" x="110" y="60" width="32" height="54"/>
+<rect class="barb" x="150" y="96" width="32" height="144"/><rect class="barw" x="150" y="60" width="32" height="36"/>
+<rect class="barb" x="190" y="114" width="32" height="126"/><rect class="barw" x="190" y="60" width="32" height="54"/>
+<rect class="barb" x="230" y="114" width="32" height="126"/><rect class="barw" x="230" y="60" width="32" height="54"/>
+<rect class="barb" x="270" y="114" width="32" height="126"/><rect class="barw" x="270" y="60" width="32" height="54"/>
+<rect class="barb" x="310" y="114" width="32" height="126"/><rect class="barw" x="310" y="60" width="32" height="54"/>
+<rect class="barb" x="350" y="114" width="32" height="126"/><rect class="barw" x="350" y="60" width="32" height="54"/>
+<rect class="barb" x="390" y="78" width="32" height="162"/><rect class="barw" x="390" y="60" width="32" height="18"/>
+<rect class="barb" x="430" y="85.2" width="32" height="154.8"/><rect class="barw" x="430" y="60" width="32" height="25.2"/>
+<rect class="barb" x="470" y="115.8" width="32" height="124.2"/><rect class="barw" x="470" y="60" width="32" height="55.8"/>
+<rect class="barb" x="510" y="90.6" width="32" height="149.4"/><rect class="barw" x="510" y="60" width="32" height="30.6"/>
+<rect class="barb" x="550" y="115.8" width="32" height="124.2"/><rect class="barw" x="550" y="60" width="32" height="55.8"/>
+<rect class="barb" x="590" y="114" width="32" height="126"/><rect class="barw" x="590" y="60" width="32" height="54"/>
+<rect class="barb" x="630" y="132" width="32" height="108"/><rect class="barw" x="630" y="60" width="32" height="72"/>
+</g>
+<g class="dim">
+<text x="86" y="256" text-anchor="middle">394</text><text x="126" y="256" text-anchor="middle">395</text><text x="166" y="256" text-anchor="middle">396</text><text x="206" y="256" text-anchor="middle">397</text><text x="246" y="256" text-anchor="middle">398</text><text x="286" y="256" text-anchor="middle">399</text><text x="326" y="256" text-anchor="middle">400</text><text x="366" y="256" text-anchor="middle">401</text><text x="406" y="256" text-anchor="middle">402</text><text x="446" y="256" text-anchor="middle">403</text><text x="486" y="256" text-anchor="middle">404</text><text x="526" y="256" text-anchor="middle">405</text><text x="566" y="256" text-anchor="middle">406</text><text x="606" y="256" text-anchor="middle">407</text><text x="646" y="256" text-anchor="middle">408</text>
+<text x="86" y="232" text-anchor="middle" style="fill:#fff">70</text><text x="126" y="232" text-anchor="middle" style="fill:#fff">70</text><text x="166" y="232" text-anchor="middle" style="fill:#fff">80</text><text x="206" y="232" text-anchor="middle" style="fill:#fff">70</text><text x="246" y="232" text-anchor="middle" style="fill:#fff">70</text><text x="286" y="232" text-anchor="middle" style="fill:#fff">70</text><text x="326" y="232" text-anchor="middle" style="fill:#fff">70</text><text x="366" y="232" text-anchor="middle" style="fill:#fff">70</text><text x="406" y="232" text-anchor="middle" style="fill:#fff">90</text><text x="446" y="232" text-anchor="middle" style="fill:#fff">86</text><text x="486" y="232" text-anchor="middle" style="fill:#fff">69</text><text x="526" y="232" text-anchor="middle" style="fill:#fff">83</text><text x="566" y="232" text-anchor="middle" style="fill:#fff">69</text><text x="606" y="232" text-anchor="middle" style="fill:#fff">70</text><text x="646" y="232" text-anchor="middle" style="fill:#fff">60</text>
+</g>
+<rect class="barb" x="70" y="276" width="14" height="12"/><text x="90" y="287" class="dim">planned product share (percent shown)</text>
+<rect class="barw" x="330" y="276" width="14" height="12"/><text x="350" y="287" class="dim">planned infrastructure share</text>
+<text x="660" y="287" text-anchor="end" class="dim">median 70, mean 73</text>
+</svg>
+</div>
+<figcaption>Figure A1. Planned allocation, as recorded by the product owner agent at each sprint planning. These are planned shares of the committed sprint backlog, not measured spend, and the record does not state the unit. The split was not recorded before sprint 394.</figcaption>
+</figure>
+
+<h2><span class="n">B</span>Appendix: case chronology and method detail</h2>
+
+<h3>B.1 Andon and kaizen, on a car line and in an agent team</h3>
+
+<p>Figure B1 sets a car line next to an agent team. On a car line a worker sees that a wire-harness clip is missing and pulls the cord. The team leader fits the clip in forty seconds and the line does not stop. The pull is recorded; at the end of the shift the team sees that missing clips were pulled nine times, and the next kaizen is about how the clips arrive, not about the worker. The example is illustrative.</p>
+
+<figure>
+<div class="plate">
+<svg viewBox="0 0 680 300" role="img" aria-labelledby="f1t">
+<title id="f1t">Two rows of four steps, detect, signal, contain and respond, for a missing clip on a car line and a failed check in software; below them a separate improvement step that reads the record of both.</title>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="arrow" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+<text x="20" y="24" class="dim">ANDON: contains this defect, now</text>
+<text x="128" y="48" text-anchor="middle" font-weight="600">Detect</text>
+<text x="284" y="48" text-anchor="middle" font-weight="600">Signal</text>
+<text x="440" y="48" text-anchor="middle" font-weight="600">Contain</text>
+<text x="596" y="48" text-anchor="middle" font-weight="600">Respond</text>
+<text x="20" y="82" class="dim">Car</text><text x="20" y="96" class="dim">line</text>
+<rect class="box" x="60" y="60" width="136" height="54" rx="6"/><text x="128" y="83" text-anchor="middle">worker sees a</text><text x="128" y="100" text-anchor="middle">missing clip</text>
+<rect class="wn" x="216" y="60" width="136" height="54" rx="6"/><text x="284" y="83" text-anchor="middle">pulls the cord;</text><text x="284" y="100" text-anchor="middle">light shows station</text>
+<rect class="box" x="372" y="60" width="136" height="54" rx="6"/><text x="440" y="83" text-anchor="middle">this car does not</text><text x="440" y="100" text-anchor="middle">move on unfixed</text>
+<rect class="box" x="528" y="60" width="136" height="54" rx="6"/><text x="596" y="83" text-anchor="middle">team leader fits</text><text x="596" y="100" text-anchor="middle">the clip; pull logged</text>
+<text x="20" y="152" class="dim">Agent</text><text x="20" y="166" class="dim">team</text>
+<rect class="box" x="60" y="130" width="136" height="54" rx="6"/><text x="128" y="153" text-anchor="middle">a check fails on a</text><text x="128" y="170" text-anchor="middle">pull request</text>
+<rect class="wn" x="216" y="130" width="136" height="54" rx="6"/><text x="284" y="153" text-anchor="middle">CI marks it red, or a</text><text x="284" y="170" text-anchor="middle">reviewer blocks it</text>
+<rect class="box" x="372" y="130" width="136" height="54" rx="6"/><text x="440" y="153" text-anchor="middle">the merge check</text><text x="440" y="170" text-anchor="middle">refuses to merge</text>
+<rect class="box" x="528" y="130" width="136" height="54" rx="6"/><text x="596" y="153" text-anchor="middle">developer agent fixes</text><text x="596" y="170" text-anchor="middle">it; round recorded</text>
+<path class="ln" d="M196,87 L214,87" marker-end="url(#ah)"/><path class="ln" d="M352,87 L370,87" marker-end="url(#ah)"/><path class="ln" d="M508,87 L526,87" marker-end="url(#ah)"/>
+<path class="ln" d="M196,157 L214,157" marker-end="url(#ah)"/><path class="ln" d="M352,157 L370,157" marker-end="url(#ah)"/><path class="ln" d="M508,157 L526,157" marker-end="url(#ah)"/>
+<path class="dash" d="M596,184 L596,222"/>
+<path class="ln" d="M596,222 L470,222" marker-end="url(#ah)"/>
+<text x="20" y="198" class="dim">KAIZEN: prevents the next one, later</text>
+<rect class="hum" x="140" y="200" width="330" height="56" rx="6"/>
+<text x="305" y="224" text-anchor="middle" font-weight="600">Read the record of pulls; change the standard</text>
+<text x="305" y="242" text-anchor="middle" class="dim">how clips arrive · a retrospective issue, then a rule, gate or test</text>
+<text x="20" y="286" class="dim">The top rows act on one unit (one car, one pull request). The bottom step acts on how every later unit is made.</text>
+</svg>
+</div>
+<figcaption>Figure B1. Andon and kaizen, on a car line and in an agent team. Andon detects, signals, contains and responds to one defect, and leaves a record. Kaizen is a separate, later step that reads the record and changes the standard.</figcaption>
+</figure>
+
+<h3>B.2 Lineage</h3>
+
+<div class="tw"><table>
+<thead><tr><th>Link</th><th>Kind</th><th>Evidence</th></tr></thead>
+<tbody>
+<tr><td>Shewhart → Deming</td><td>Documented</td><td>Deming credits Shewhart's cycle and control charts [4].</td></tr>
+<tr><td>Deming → Japanese quality management and PDCA</td><td>Documented</td><td>Deming's lectures in Japan from 1950; PDCA as the Japanese restatement [29].</td></tr>
+<tr><td>Deming → Toyota Production System</td><td>Plausible indirect</td><td>Toyota practiced company-wide quality control, in which Deming's teaching circulated. We found no source in which the designers of TPS credit Deming for the system itself [5, 6].</td></tr>
+<tr><td>TPS → Lean software development (2003)</td><td>Documented</td><td>The Poppendiecks translate TPS principles to software and say so [10].</td></tr>
+<tr><td>TPS and Lean manufacturing → DevOps (2016)</td><td>Documented</td><td><em>The DevOps Handbook</em> states that its Three Ways draw on Lean and TPS, and names the andon cord [11]. Here Lean means the production method, which Figure B2 includes in the TPS box. We did not check whether the Handbook cites the Poppendiecks, so Figure B2 has no arrow from Lean software to DevOps.</td></tr>
+<tr><td>PDCA and TQM → Quality Improvement Paradigm</td><td>Documented comparison</td><td>Basili compares the paradigm with PDCA and TQM [32].</td></tr>
+<tr><td>Deming and quality authors → SEI process maturity</td><td>Documented</td><td>Humphrey cites them [33].</td></tr>
+<tr><td>DevOps, Lean, agile retrospectives → compound engineering</td><td>Plausible indirect</td><td>The ideas were common in software practice by 2025. The two Every texts we read on 5 November 2026 cite none of them [8, 9].</td></tr>
+<tr><td>Experience Factory → compound engineering</td><td>Analogy</td><td>Both package lessons into reusable standards. No citation found.</td></tr>
+<tr><td>Reflexion → compound engineering</td><td>Analogy</td><td>Both write lessons from failure into text the next attempt reads. No citation found.</td></tr>
+</tbody></table></div>
+<p class="tcap">Table B1. Links between the bodies of work in Section 2, by kind of evidence.</p>
+
+<figure>
+<div class="plate">
+<svg viewBox="0 0 680 330" role="img" aria-labelledby="f2t">
+<title id="f2t">A map from Shewhart and Deming through the Toyota Production System, software process improvement, Lean software and DevOps to compound engineering and agent software factories, in four period columns. Solid arrows are documented influence; dashed arrows, including Deming to the Toyota Production System, are indirect, proposed or analogical.</title>
+<defs><marker id="ah2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path class="arrow" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+<text x="20" y="22" class="dim">1920s–1970s</text><text x="200" y="22" class="dim">1976–1994</text><text x="400" y="22" class="dim">2003–2023</text><text x="560" y="22" class="dim">2025–2026</text>
+<rect class="box" x="20" y="40" width="140" height="44" rx="6"/><text x="90" y="60" text-anchor="middle">Shewhart</text><text x="90" y="76" text-anchor="middle" class="dim">control, cycle</text>
+<rect class="box" x="20" y="120" width="140" height="44" rx="6"/><text x="90" y="140" text-anchor="middle">Deming</text><text x="90" y="156" text-anchor="middle" class="dim">PDCA in Japan, PDSA</text>
+<rect class="box" x="20" y="220" width="140" height="44" rx="6"/><text x="90" y="240" text-anchor="middle">Toyota Production</text><text x="90" y="256" text-anchor="middle" class="dim">System: jidoka, JIT</text>
+<rect class="box" x="200" y="80" width="160" height="44" rx="6"/><text x="280" y="100" text-anchor="middle">Basili: QIP and</text><text x="280" y="116" text-anchor="middle" class="dim">Experience Factory</text>
+<rect class="box" x="200" y="150" width="160" height="44" rx="6"/><text x="280" y="170" text-anchor="middle">Humphrey: SEI</text><text x="280" y="186" text-anchor="middle" class="dim">process maturity</text>
+<rect class="box" x="400" y="190" width="130" height="44" rx="6"/><text x="465" y="210" text-anchor="middle">Lean software</text><text x="465" y="226" text-anchor="middle" class="dim">Poppendieck 2003</text>
+<rect class="box" x="400" y="260" width="130" height="44" rx="6"/><text x="465" y="280" text-anchor="middle">DevOps</text><text x="465" y="296" text-anchor="middle" class="dim">Three Ways, 2016</text>
+<rect class="box" x="400" y="40" width="130" height="44" rx="6"/><text x="465" y="60" text-anchor="middle">Reflexion</text><text x="465" y="76" text-anchor="middle" class="dim">2023</text>
+<rect class="acc" x="560" y="130" width="110" height="60" rx="6"/><text x="615" y="154" text-anchor="middle" class="ta">Compound</text><text x="615" y="172" text-anchor="middle" class="ta">engineering</text>
+<rect class="acc" x="560" y="240" width="110" height="60" rx="6"/><text x="615" y="264" text-anchor="middle" class="ta">Agent</text><text x="615" y="282" text-anchor="middle" class="ta">factories</text>
+<path class="ln" d="M90,84 L90,118" marker-end="url(#ah2)"/>
+<path class="dash" d="M90,164 L90,218" marker-end="url(#ah2)"/>
+<path class="ln" d="M160,138 L198,110" marker-end="url(#ah2)"/>
+<path class="ln" d="M160,148 L198,168" marker-end="url(#ah2)"/>
+<path class="ln" d="M160,238 L398,212" marker-end="url(#ah2)"/>
+<path class="ln" d="M160,252 L398,278" marker-end="url(#ah2)"/>
+<path class="dash" d="M360,102 L558,150" marker-end="url(#ah2)"/>
+<path class="dash" d="M530,70 L570,128" marker-end="url(#ah2)"/>
+<path class="dash" d="M530,206 L558,176" marker-end="url(#ah2)"/>
+<path class="dash" d="M530,276 L558,184" marker-end="url(#ah2)"/>
+<path class="dash" d="M615,190 L615,238" marker-end="url(#ah2)"/>
+<line class="ln" x1="150" y1="318" x2="180" y2="318"/><text x="186" y="322" class="dim">documented influence or comparison</text>
+<line class="dash" x1="420" y1="318" x2="450" y2="318"/><text x="456" y="322" class="dim">indirect, proposed or analogy</text>
+</svg>
+</div>
+<figcaption>Figure B2. Lineage map. Columns give the period of each body of work, from Shewhart's first control chart (1924) to agent factories (2026). Solid arrows have a citation behind them (Table B1). The Toyota Production System box includes Lean as a production method. Dashed arrows are plausible indirect influence, this paper's proposal, or a functional analogy; the arrow from Deming to the Toyota Production System is dashed because we found no citation for it. Every dashed arrow into compound engineering lacks a citation in the texts we read.</figcaption>
+</figure>
+
+<h3>B.3 Method detail</h3>
+
+<p>The nightly CI sweep reports record, for the 24 hours before 03:30 each day, the number of gate runs and the median gate time per CI runner. The CI service's record of the daily full run gives the start and end time of each attempt of its gate job. Reopened issues count as open. The from-retro label was first used on 20 October. Product-repository counts were taken on the morning of 5 November and were not recomputed, so their ages and passes were not computed. The bursts of closures identified as grooming passes were found by reading closing comments where many issues closed within minutes of each other.</p>
+
+<p>Context for the volume of work between 29 October and 5 November: the team merged 392 pull requests on the product and 290 on the infrastructure repository, and 315 issues were filed on the infrastructure repository, 173 of them (55%) from retrospectives. Issue counts do not measure effort or value, since a one-line fix and a redesign are each one issue; they say that most of what the infrastructure backlog received that week came from the team's own retrospectives.</p>
+
+<h3>B.4 Ideas from outside the team</h3>
+
+<p>Two routes bring ideas in. A scheduled job scans AI engineering news on Monday and Thursday mornings and writes what applies into a report and, where actionable, an issue. The stakeholder also forwards individual posts, and the research agent answers within the day with a short report and, if the answer is yes, a proposal to the product owner agent. On 4 November 2026 a post by Dave Kiss pointed at the <code>AGENTS.md</code> file of the uv project, which tells its agents: "DO NOT leak our conversation, prompt, or iteration history into code comments, pull request descriptions, or other maintainer-facing prose. Write for readers who have not seen our conversation" [13]. On 5 November a pattern search over the team's script and hook directories found 581 lines in 150 files that matched a pattern for review-round history. The count is a heuristic: the matched lines were not classified, and some may be comments that still explain the code. A rule, an exactly specified census, a parser-based guard per language and a pilot were filed as an issue on 5 November (C1). An earlier post by the same author, on 31 October, about a run-and-verify skill, was answered the same day as applying to the product, not the scripts, and went to the product backlog.</p>
+
+<h3>B.5 Case chronologies</h3>
+
+<p><strong>CI gate.</strong> At 18:52 on 27 October the retrospective of sprint 318 filed the three 55-minute attempts (C3). By 05:24 on 28 October the per-suite time limits had been raised (C4) and the job capped at 90 minutes (C5). On 29 October the next retrospective found the next symptom, a merge waiter (a script that waits for the gate to finish and then merges) that gave up after 45 minutes while the gate still ran (C6). At 07:03 on 1 November the cause was measured: all twelve recent runs had executed all 344 suites for one-line edits to data and instruction files (C7). The three pull requests that made a push run only the suites that read the changed files, plus a smoke set, and added the daily full run, merged at 09:44 and 21:48 on 1 November and 02:49 on 2 November (C8, C9, C10).</p>
+
+<p><strong>Commit authorship.</strong> The sprint 330 filing at 18:55 on 28 October reported six of eight (C11); the fix was an instruction in the brief. Five more filings followed: seven of seven in sprint 333 (C12, 29 October); every such pull request in sprint 342, plus a merge that brought back three re-authored commits (C13, 29 October); five of five in sprint 356 with one wasted review round (C14, 30 October); on 3 November, with no failure count, two extra two-seat review rounds in one sprint because a re-authored head (a pull request whose commits were rewritten after review) needs a new review (C15); and on 4 November at 16:24 the footer coming back when a description was edited (C18). The footer-stripping command merged at 23:36 on 2 November (C16); the launch-tool change at 02:21 on 4 November (C17); the fix for the recurrence at 20:43 on 4 November (C19).</p>
+
+<p><strong>A same-day cycle.</strong> At 06:53 on 1 November a retrospective filed that the hand-written time on the sprint's run log had run up to 14 minutes ahead of the clock in two sprints in a row (C20). The fix, a clock read in place of the writer's estimate, closed at 16:06 the same day (C21): 9 hours from filing to closing, against the 32-hour median for done issues. We did not measure how typical this is, or whether the fix held.</p>
+
+<h3>B.6 Evaluation analysis detail</h3>
+
+<p>The count command does not compute due-date denominators or the planned-end reading; those come from the analysis script. The median gap between filing and due date is 6.4 days. An earlier hand-built version of the retrospective-only count over-counted evaluated issues (160 instead of 129) by treating issues with other comments as evaluated; the script replaces it, and its totals equal the count command's (95 + 18 + 16 = 129). The wrap's rule for verdicts: it lists issues with a <code>Predicts:</code> line whose due date is on or before today and that have no <code>kaizen-eval:</code> comment, skips one whose fix has not merged, and posts at most five verdicts per wrap, oldest first. The due date is a calendar date chosen by the filer, not a sprint count. A comment that starts with the marker but names no valid verdict would count as evaluated with no verdict ("malformed"); there are none.</p>
+
+<h2><span class="n">R</span>References</h2>
+<ol class="refs">
+<li>Remy, D. <em>Persistent Agents on Claude Code.</em> Working paper, version 1.4, 17 November 2026 (version 1.2 of 30 October was current during the first window). <a href="https://daveremy.github.io/persistent-agents/">daveremy.github.io/persistent-agents</a>, <a href="https://doi.org/10.5281/zenodo.23787644">doi:10.5281/zenodo.23787644</a> (all versions)</li>
+<li>Remy, D. <em>Agent Scrum: a sprint methodology for continuous software development by AI agent teams.</em> Working paper, version 0.1, 28 October 2026; version 0.1.1 (11 November 2026) makes corrections only. <a href="https://daveremy.github.io/agent-scrum/">daveremy.github.io/agent-scrum</a>, <a href="https://doi.org/10.5281/zenodo.23771170">doi:10.5281/zenodo.23771170</a> (all versions)</li>
+<li>Shewhart, W. A. <em>Statistical Method from the Viewpoint of Quality Control.</em> Graduate School of the Department of Agriculture, 1939.</li>
+<li>Deming, W. E. <em>Out of the Crisis.</em> MIT Center for Advanced Engineering Study, 1986.</li>
+<li>Ohno, T. <em>Toyota Production System: Beyond Large-Scale Production.</em> Productivity Press, 1988 (Japanese original 1978).</li>
+<li>Liker, J. K. <em>The Toyota Way: 14 Management Principles from the World's Greatest Manufacturer.</em> McGraw-Hill, 2004.</li>
+<li>Imai, M. <em>Kaizen: The Key to Japan's Competitive Success.</em> McGraw-Hill, 1986.</li>
+<li>Klaassen, K. My AI Had Already Fixed the Code Before I Saw It. Every, Source Code, 18 August 2025. <a href="https://every.to/source-code/my-ai-had-already-fixed-the-code-before-i-saw-it">every.to</a>; <a href="https://web.archive.org/web/20260828053501/https://every.to/source-code/my-ai-had-already-fixed-the-code-before-i-saw-it">archived 28 August 2026</a></li>
+<li>Every. Compound Engineering (guide). Undated; the guide's plugin is co-maintained by Kieran Klaassen and Trevin Chow. Read 5 and 6 November 2026. <a href="https://every.to/guides/compound-engineering">every.to/guides/compound-engineering</a>; <a href="https://web.archive.org/web/20261012131305/https://every.to/guides/compound-engineering">archived 12 October 2026</a></li>
+<li>Poppendieck, M. and Poppendieck, T. <em>Lean Software Development: An Agile Toolkit.</em> Addison-Wesley, 2003.</li>
+<li>Kim, G., Humble, J., Debois, P. and Willis, J. <em>The DevOps Handbook.</em> IT Revolution Press, 2016. The 20% recommendation, attributed to Marty Cagan, was checked against quoted passages, not the printed page.</li>
+<li>Beyer, B., Jones, C., Petoff, J. and Murphy, N. R. (eds). <em>Site Reliability Engineering: How Google Runs Production Systems.</em> O'Reilly, 2016, chapter 15, Postmortem culture: learning from failure.</li>
+<li>Astral. <code>AGENTS.md</code> in the uv repository, read 5 November 2026. <a href="https://github.com/astral-sh/uv/blob/main/AGENTS.md">github.com/astral-sh/uv</a>; <a href="https://web.archive.org/web/20261021074300/https://github.com/astral-sh/uv/blob/main/AGENTS.md">archived 21 October 2026</a>. Brought to the team's attention by a post by Dave Kiss, 4 November 2026.</li>
+<li>Anthropic. Dreams. Claude Managed Agents documentation, research preview, read 5 November 2026. <a href="https://platform.claude.com/docs/en/managed-agents/dreams">platform.claude.com</a>; <a href="https://web.archive.org/web/20261027201010/https://platform.claude.com/docs/en/managed-agents/dreams">archived 27 October 2026</a></li>
+<li>Cognition. Agent Memory Repo. Read 5 November 2026. <a href="https://cognition.com/agent-memory-repo">cognition.com/agent-memory-repo</a>; <a href="https://web.archive.org/web/20261013054720/https://cognition.com/agent-memory-repo">archived 13 October 2026</a></li>
+<li>Schwaber, K. and Sutherland, J. <em>The Scrum Guide.</em> 2020. <a href="https://scrumguides.org/scrum-guide.html">scrumguides.org</a>; <a href="https://web.archive.org/web/20261025081203/https://scrumguides.org/scrum-guide.html">archived 25 October 2026</a></li>
+<li>McCarthy, J., Taylor, J. and Chauhan, N. StrongDM Software Factory, as described by S. Willison, How StrongDM's AI team build serious software without even looking at the code, 7 February 2026. <a href="https://simonwillison.net/2026/Feb/7/software-factory/">simonwillison.net</a>; <a href="https://web.archive.org/web/20261027030901/https://simonwillison.net/2026/Feb/7/software-factory/">archived 27 October 2026</a></li>
+<li>Stanford CodeX. Built by Agents, Tested by Agents, Trusted by Whom? 8 February 2026. <a href="https://law.stanford.edu/2026/02/08/built-by-agents-tested-by-agents-trusted-by-whom/">law.stanford.edu</a>; <a href="https://web.archive.org/web/20261028062403/https://law.stanford.edu/2026/02/08/built-by-agents-tested-by-agents-trusted-by-whom/">archived 28 October 2026</a></li>
+<li>Lopopolo, R. Harness engineering: leveraging Codex in an agent-first world. OpenAI, 11 February 2026. <a href="https://openai.com/index/harness-engineering/">openai.com</a>; <a href="https://web.archive.org/web/20261026152238/https://openai.com/index/harness-engineering/">archived 26 October 2026</a></li>
+<li>Grinberg, M. and Reyes, E. Factory 2.0: from coding agents to software factories. Factory, 15 June 2026. <a href="https://factory.com/news/software-factory">factory.com</a>; <a href="https://web.archive.org/web/20260927230756/https://factory.com/news/software-factory">archived 27 September 2026</a></li>
+<li>BCG Platinion. The Agentic Software Factory: how AI agents are delivering software at 5x speed. 2026. <a href="https://www.bcgplatinion.com/blog/the-agentic-software-factory-blog">bcgplatinion.com</a>; <a href="https://web.archive.org/web/20260720150856/https://www.bcgplatinion.com/blog/the-agentic-software-factory-blog">archived 20 July 2026</a></li>
+<li>Yegge, S. Gas Town (January 2026) and Gas City (May 2026), as described in O'Reilly Radar, Steve Yegge wants you to stop looking at your code. <a href="https://www.oreilly.com/radar/steve-yegge-wants-you-to-stop-looking-at-your-code/">oreilly.com</a>; <a href="https://web.archive.org/web/20260921100728/https://www.oreilly.com/radar/steve-yegge-wants-you-to-stop-looking-at-your-code/">archived 21 September 2026</a></li>
+<li>BMAD Method (Breakthrough Method for Agile AI-Driven Development), version 6; code-review skill read 6 November 2026. <a href="https://github.com/bmad-code-org/BMAD-METHOD">github.com/bmad-code-org</a>; <a href="https://web.archive.org/web/20261023063140/https://github.com/bmad-code-org/BMAD-METHOD">archived 23 October 2026</a></li>
+<li>Spec Kit, GitHub's open-source toolkit for spec-driven development, as described in Visual Studio Magazine, 3 September 2025. <a href="https://visualstudiomagazine.com/articles/2025/09/03/github-open-sources-kit-for-spec-driven-ai-development.aspx">visualstudiomagazine.com</a>. The project repository (github.com/github/spec-kit) was not read for this paper.</li>
+<li>Nguyen, M. H. et al. AgileCoder: dynamic collaborative agents for software development based on agile methodology. Preprint, 2024; we did not verify a venue. <a href="https://arxiv.org/abs/2406.11912">arXiv:2406.11912</a></li>
+<li>Hassan, A. E., Li, H., Lin, D., Adams, B., Chen, T.-H., Kashiwa, Y. and Qiu, D. Agentic software engineering: foundational pillars and a research roadmap. 2025. <a href="https://arxiv.org/abs/2509.06216">arXiv:2509.06216</a></li>
+<li>Lean Enterprise Institute. Industrializing AI for software development (interview with Fabrice Bernhard, Theodo). The Lean Post, November 2025. The page states it was written by an AI model from the interview transcript. <a href="https://www.lean.org/the-lean-post/articles/industrializing-ai-for-software-development/">lean.org</a>; <a href="https://web.archive.org/web/20260615110121/https://www.lean.org/the-lean-post/articles/industrializing-ai-for-software-development/">archived 15 June 2026</a></li>
+<li>Shapiro, D. The five levels: from spicy autocomplete to the dark factory. January 2026, as described by S. Willison, 28 January 2026. <a href="https://simonwillison.net/2026/Jan/28/the-five-levels/">simonwillison.net</a></li>
+<li>Moen, R. and Norman, C. Circling back: clearing up myths about the Deming cycle and seeing how it keeps evolving. <em>Quality Progress</em>, November 2010; and Deming, W. E., <em>The New Economics</em>, MIT, 1993, for PDSA.</li>
+<li>Martínez-Lorente, A. R., Dewhurst, F. and Dale, B. G. Total quality management: origins and evolution of the term. <em>The TQM Magazine</em> 10(5), 1998.</li>
+<li>Basili, V. R., Caldiera, G. and Rombach, H. D. The Experience Factory. In <em>Encyclopedia of Software Engineering</em>, Wiley, 1994.</li>
+<li>Basili, V. R. The Experience Factory and its relationship to other improvement paradigms. <em>Proceedings of ESEC 1993</em>, LNCS 717, Springer.</li>
+<li>Humphrey, W. S. <em>Managing the Software Process.</em> Addison-Wesley, 1989.</li>
+<li>Shinn, N., Cassano, F., Gopinath, A., Narasimhan, K. and Yao, S. Reflexion: language agents with verbal reinforcement learning. NeurIPS 2023. <a href="https://arxiv.org/abs/2303.11366">arXiv:2303.11366</a></li>
+<li>Hong, S. et al. MetaGPT: meta programming for a multi-agent collaborative framework. ICLR 2024. <a href="https://arxiv.org/abs/2308.00352">arXiv:2308.00352</a></li>
+<li>Qian, C. et al. ChatDev: communicative agents for software development. ACL 2024. <a href="https://arxiv.org/abs/2307.07924">arXiv:2307.07924</a></li>
+<li>Shewhart, W. A. <em>Economic Control of Quality of Manufactured Product.</em> Van Nostrand, 1931.</li>
+<li>Shingo, S. <em>Zero Quality Control: Source Inspection and the Poka-yoke System.</em> Productivity Press, 1986.</li>
+<li>Toyota Motor Corporation. Toyota Production System. Read 6 November 2026. <a href="https://global.toyota/en/company/vision-and-philosophy/production-system/">global.toyota</a>. Source for jidoka as preventing recurrence.</li>
+<li>Basili, V. R., Caldiera, G. and Rombach, H. D. The Goal Question Metric approach. In <em>Encyclopedia of Software Engineering</em>, Wiley, 1994.</li>
+<li>Yu, Xia, Pan et al. (ten authors; Google Cloud AI, Google DeepMind and Penn State). Self-Improvement Memory enables continual recursive self-improvement. Preprint, 13 November 2026. <a href="https://arxiv.org/abs/2611.18856">arXiv:2611.18856</a></li>
+<li>Bessant, J., Caffyn, S. and Gallagher, M. An evolutionary model of continuous improvement behaviour. <em>Technovation</em>, 2001. <a href="https://www.sciencedirect.com/science/article/pii/S0166497200000237">sciencedirect.com</a></li>
+</ol>
+<p class="tcap">Web sources have a link to an existing Internet Archive snapshot where one was found on 6 November 2026; the lookup did not return a result for [28] and [39], and was not run for [24], [41] and [42].</p>
+
+<p class="disclose"><em>Created in collaboration with AI.</em></p>
+</article>
+</body>
+</html>

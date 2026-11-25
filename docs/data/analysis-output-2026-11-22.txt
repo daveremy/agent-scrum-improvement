@@ -1,0 +1,36 @@
+export 2026-11-22T21:52:45.648Z; 396 rows; by label from-retro: 323, customer: 73
+customer rows with a prediction: 0
+
+## A. Reading at extraction, registered cohort (created from 2026-11-06 00:00 UTC): issues created by 2026-11-22T21:52:45.648Z; due dates by 2026-11-22; verdict comments by 2026-11-22T21:52:45.648Z
+retro issues 323; with prediction 303 = 93.8% (90.6 to 96.0)
+due 156; of those with a verdict 129 = 82.7% (76.0 to 87.8)
+verdicts (all predictions) 129: held 95, not-held 18, unmeasurable 16, malformed 0
+held/decidable 95/113 = 84.1% (76.2 to 89.7); held/all verdicts 95/129 = 73.6% (65.4 to 80.5); held/due 95/156 = 60.9% (53.1 to 68.2)
+not yet due 147; verdicts on not-yet-due 0
+seen: =1 179, =0 6, >1 114, unreadable 4
+
+## B. Planned end (20 Nov 23:59 MST), registered cohort: issues created by 2026-11-21T06:59:00Z; due dates by 2026-11-20; verdict comments by 2026-11-21T06:59:00Z
+retro issues 290; with prediction 270 = 93.1% (89.6 to 95.5)
+due 127; of those with a verdict 111 = 87.4% (80.5 to 92.1)
+verdicts (all predictions) 111: held 84, not-held 15, unmeasurable 12, malformed 0
+held/decidable 84/99 = 84.8% (76.5 to 90.6); held/all verdicts 84/111 = 75.7% (66.9 to 82.7); held/due 84/127 = 66.1% (57.5 to 73.8)
+not yet due 143; verdicts on not-yet-due 0
+
+## C. Planned end, cohort created after the step landed: issues created by 2026-11-21T06:59:00Z; due dates by 2026-11-20; verdict comments by 2026-11-21T06:59:00Z
+retro issues 273; with prediction 270 = 98.9% (96.8 to 99.6)
+due 127; of those with a verdict 111 = 87.4% (80.5 to 92.1)
+verdicts (all predictions) 111: held 84, not-held 15, unmeasurable 12, malformed 0
+held/decidable 84/99 = 84.8% (76.5 to 90.6); held/all verdicts 84/111 = 75.7% (66.9 to 82.7); held/due 84/127 = 66.1% (57.5 to 73.8)
+not yet due 143; verdicts on not-yet-due 0
+
+## D. Extraction, cohort created after the step landed: issues created by 2026-11-22T21:52:45.648Z; due dates by 2026-11-22; verdict comments by 2026-11-22T21:52:45.648Z
+retro issues 306; with prediction 303 = 99.0% (97.2 to 99.7)
+due 156; of those with a verdict 129 = 82.7% (76.0 to 87.8)
+verdicts (all predictions) 129: held 95, not-held 18, unmeasurable 16, malformed 0
+held/decidable 95/113 = 84.1% (76.2 to 89.7); held/all verdicts 95/129 = 73.6% (65.4 to 80.5); held/due 95/156 = 60.9% (53.1 to 68.2)
+not yet due 147; verdicts on not-yet-due 0
+
+## E. Created before the step landed (2026-11-07T01:40:51Z): retro issues 17, with a prediction at extraction 0
+due lead time in days (due date minus creation): min 0.4, median 6.4, max 27.5
+predictions with more than one kaizen-eval comment: 0; malformed last verdicts: 0
+first verdict minus due date, days: min 0.4, median 0.5, max 4.0 (n=129)

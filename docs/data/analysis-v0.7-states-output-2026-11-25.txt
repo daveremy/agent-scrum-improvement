@@ -1,0 +1,8 @@
+
+## open: retro issues 112; with prediction 109 = 97.3% (92.4 to 99.1)
+due 37; with a verdict 15 = 40.5% (26.3 to 56.5)
+verdicts 15: held 10, not-held 3, unmeasurable 2; held/decidable 10/13 = 76.9% (49.7 to 91.8)
+
+## closed: retro issues 211; with prediction 194 = 91.9% (87.5 to 94.9)
+due 119; with a verdict 114 = 95.8% (90.5 to 98.2)
+verdicts 114: held 85, not-held 15, unmeasurable 14; held/decidable 85/100 = 85.0% (76.7 to 90.7)

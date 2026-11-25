@@ -1,0 +1,6062 @@
+{
+ "extracted_at": "2026-11-22T21:52:45.648Z",
+ "since": "2026-11-06",
+ "step_landed": "2026-11-07T01:40:51Z",
+ "sources": [
+  "infrastructure",
+  "product"
+ ],
+ "rows": [
+  {
+   "id": "infrastructure-0001",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T20:53:32Z",
+   "updated_at": "2026-11-22T21:23:42Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-29",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0002",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T17:52:44Z",
+   "updated_at": "2026-11-22T18:23:32Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-12-06",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0003",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T17:52:42Z",
+   "updated_at": "2026-11-22T18:23:30Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-13",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0004",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T17:52:41Z",
+   "updated_at": "2026-11-22T18:23:27Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-06",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0005",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T17:52:40Z",
+   "updated_at": "2026-11-22T18:23:24Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-06",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0006",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T14:53:13Z",
+   "updated_at": "2026-11-22T15:23:27Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "5",
+   "due": "2026-11-29",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0007",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T14:53:12Z",
+   "updated_at": "2026-11-22T15:23:24Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-30",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0008",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T14:53:11Z",
+   "updated_at": "2026-11-22T15:23:22Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-29",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0009",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T11:52:25Z",
+   "updated_at": "2026-11-22T12:23:30Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-06",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0010",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T11:52:24Z",
+   "updated_at": "2026-11-22T12:23:28Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-29",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0011",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T11:52:23Z",
+   "updated_at": "2026-11-22T12:23:26Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "4",
+   "due": "2026-11-29",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0012",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T11:52:22Z",
+   "updated_at": "2026-11-22T12:23:23Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-06",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0013",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T08:59:18Z",
+   "updated_at": "2026-11-22T19:47:29Z",
+   "closed_at": "2026-11-22T19:47:29Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-29",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0014",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T08:53:10Z",
+   "updated_at": "2026-11-22T09:22:52Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-06",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0015",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T08:53:08Z",
+   "updated_at": "2026-11-22T09:22:49Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-06",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0016",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T08:53:07Z",
+   "updated_at": "2026-11-22T11:52:34Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-06",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0017",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T05:53:15Z",
+   "updated_at": "2026-11-22T06:22:31Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-01",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0018",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T05:53:13Z",
+   "updated_at": "2026-11-22T06:22:29Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-30",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0019",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T05:53:12Z",
+   "updated_at": "2026-11-22T06:22:26Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-28",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0020",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T02:32:04Z",
+   "updated_at": "2026-11-22T03:22:29Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-05",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0021",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T02:32:03Z",
+   "updated_at": "2026-11-22T03:22:26Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-05",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0022",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-22T02:32:02Z",
+   "updated_at": "2026-11-22T03:22:24Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-05",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0023",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-21T17:52:15Z",
+   "updated_at": "2026-11-21T17:52:15Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-28",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0024",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-21T17:52:13Z",
+   "updated_at": "2026-11-21T17:52:13Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-28",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0025",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-21T17:52:11Z",
+   "updated_at": "2026-11-21T17:52:11Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-28",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0026",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-21T14:52:28Z",
+   "updated_at": "2026-11-21T15:22:05Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-23",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0027",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-21T14:52:27Z",
+   "updated_at": "2026-11-21T15:22:02Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-23",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0028",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-21T11:51:39Z",
+   "updated_at": "2026-11-21T15:12:27Z",
+   "closed_at": "2026-11-21T15:12:27Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-28",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0029",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-21T11:51:38Z",
+   "updated_at": "2026-11-21T15:37:33Z",
+   "closed_at": "2026-11-21T15:37:33Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "4",
+   "due": "2026-11-28",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0030",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-21T09:12:39Z",
+   "updated_at": "2026-11-21T12:05:21Z",
+   "closed_at": "2026-11-21T12:05:20Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-28",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0031",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-21T08:52:20Z",
+   "updated_at": "2026-11-21T09:21:32Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-12-05",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0032",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-21T08:52:19Z",
+   "updated_at": "2026-11-21T12:38:50Z",
+   "closed_at": "2026-11-21T12:38:50Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-05",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0033",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-21T08:52:18Z",
+   "updated_at": "2026-11-21T09:21:28Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-05",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0034",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-21T05:29:16Z",
+   "updated_at": "2026-11-21T05:32:24Z",
+   "closed_at": "2026-11-21T05:32:16Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-12-04",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0035",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-21T05:29:15Z",
+   "updated_at": "2026-11-21T05:32:22Z",
+   "closed_at": "2026-11-21T05:32:20Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-04",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0036",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-21T02:51:25Z",
+   "updated_at": "2026-11-21T03:21:35Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-04",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0037",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-21T02:51:24Z",
+   "updated_at": "2026-11-21T03:21:32Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-04",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0038",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-21T02:01:20Z",
+   "updated_at": "2026-11-21T02:21:23Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-04",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0039",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T23:16:35Z",
+   "updated_at": "2026-11-20T23:21:19Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0040",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T20:53:22Z",
+   "updated_at": "2026-11-21T03:42:02Z",
+   "closed_at": "2026-11-21T03:42:02Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "4",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0041",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T20:34:52Z",
+   "updated_at": "2026-11-21T07:50:29Z",
+   "closed_at": "2026-11-21T04:19:43Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0042",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T17:54:30Z",
+   "updated_at": "2026-11-21T12:39:41Z",
+   "closed_at": "2026-11-21T12:39:41Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-12-04",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0043",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T17:54:29Z",
+   "updated_at": "2026-11-21T13:07:58Z",
+   "closed_at": "2026-11-21T13:07:58Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-04",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0044",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T17:54:27Z",
+   "updated_at": "2026-11-20T21:46:11Z",
+   "closed_at": "2026-11-20T21:46:11Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0045",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T15:57:47Z",
+   "updated_at": "2026-11-21T01:47:36Z",
+   "closed_at": "2026-11-21T01:47:36Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-12-04",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0046",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T14:51:38Z",
+   "updated_at": "2026-11-20T16:53:56Z",
+   "closed_at": "2026-11-20T16:53:56Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0047",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T14:51:36Z",
+   "updated_at": "2026-11-20T15:20:29Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0048",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T11:51:13Z",
+   "updated_at": "2026-11-20T14:21:18Z",
+   "closed_at": "2026-11-20T14:21:18Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0049",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T11:51:11Z",
+   "updated_at": "2026-11-20T19:49:44Z",
+   "closed_at": "2026-11-20T19:49:44Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0050",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T10:50:11Z",
+   "updated_at": "2026-11-20T11:19:27Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0051",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T08:51:43Z",
+   "updated_at": "2026-11-20T09:19:35Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-12-04",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0052",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T08:51:42Z",
+   "updated_at": "2026-11-20T18:57:27Z",
+   "closed_at": "2026-11-20T18:57:26Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0053",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T08:51:40Z",
+   "updated_at": "2026-11-20T21:51:58Z",
+   "closed_at": "2026-11-20T21:51:58Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0054",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T05:53:37Z",
+   "updated_at": "2026-11-20T06:19:27Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-03",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0055",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T03:52:59Z",
+   "updated_at": "2026-11-20T06:15:59Z",
+   "closed_at": "2026-11-20T06:15:59Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-03",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0056",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T02:56:11Z",
+   "updated_at": "2026-11-20T23:01:55Z",
+   "closed_at": "2026-11-20T23:01:55Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-03",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0057",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-20T02:56:09Z",
+   "updated_at": "2026-11-21T11:36:51Z",
+   "closed_at": "2026-11-21T11:36:51Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-03",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0058",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-19T23:53:52Z",
+   "updated_at": "2026-11-20T00:19:04Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-26",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0059",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-19T23:53:50Z",
+   "updated_at": "2026-11-20T15:21:53Z",
+   "closed_at": "2026-11-20T15:21:53Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-22",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0060",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-19T20:53:29Z",
+   "updated_at": "2026-11-19T21:18:28Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-26",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0061",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-19T20:53:27Z",
+   "updated_at": "2026-11-22T01:02:16Z",
+   "closed_at": "2026-11-22T01:02:16Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-26",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0062",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-19T17:54:20Z",
+   "updated_at": "2026-11-19T18:18:33Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-26",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0063",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-19T17:54:18Z",
+   "updated_at": "2026-11-19T18:18:31Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-26",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0064",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-19T14:54:07Z",
+   "updated_at": "2026-11-19T15:18:30Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-12-03",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0065",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-19T14:54:06Z",
+   "updated_at": "2026-11-20T15:58:43Z",
+   "closed_at": "2026-11-20T15:58:43Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "14",
+   "due": "2026-11-22",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0066",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-19T11:54:52Z",
+   "updated_at": "2026-11-22T04:11:43Z",
+   "closed_at": "2026-11-22T04:11:43Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-23",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0067",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-19T08:55:56Z",
+   "updated_at": "2026-11-21T11:52:31Z",
+   "closed_at": "2026-11-21T09:22:59Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-21",
+   "evals": [
+    {
+     "comment_id": 7062180380,
+     "created_at": "2026-11-21T11:52:31Z",
+     "updated_at": "2026-11-21T11:52:31Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0068",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-19T05:51:54Z",
+   "updated_at": "2026-11-22T05:42:15Z",
+   "closed_at": "2026-11-22T05:42:15Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0069",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-19T02:52:52Z",
+   "updated_at": "2026-11-19T03:17:28Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-22",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0070",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-19T02:52:51Z",
+   "updated_at": "2026-11-19T03:17:25Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0071",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T23:52:06Z",
+   "updated_at": "2026-11-19T00:17:25Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0072",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T23:52:05Z",
+   "updated_at": "2026-11-19T00:17:22Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "4",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0073",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T20:43:35Z",
+   "updated_at": "2026-11-18T21:16:33Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0074",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T20:43:33Z",
+   "updated_at": "2026-11-21T17:00:53Z",
+   "closed_at": "2026-11-21T17:00:53Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0075",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T20:43:31Z",
+   "updated_at": "2026-11-22T01:06:09Z",
+   "closed_at": "2026-11-22T01:06:09Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0076",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T17:23:55Z",
+   "updated_at": "2026-11-20T17:52:09Z",
+   "closed_at": "2026-11-20T16:05:57Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-20",
+   "evals": [
+    {
+     "comment_id": 7046682795,
+     "created_at": "2026-11-20T17:52:09Z",
+     "updated_at": "2026-11-20T17:52:09Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0077",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T14:55:39Z",
+   "updated_at": "2026-11-21T09:22:08Z",
+   "closed_at": "2026-11-21T09:22:08Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0078",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T14:55:37Z",
+   "updated_at": "2026-11-21T05:24:43Z",
+   "closed_at": "2026-11-21T05:24:43Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0079",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T13:07:41Z",
+   "updated_at": "2026-11-18T16:48:55Z",
+   "closed_at": "2026-11-18T16:48:55Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0080",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T11:52:49Z",
+   "updated_at": "2026-11-18T12:16:15Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0081",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T08:52:59Z",
+   "updated_at": "2026-11-18T09:16:35Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-20",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0082",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T08:52:56Z",
+   "updated_at": "2026-11-18T09:16:32Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-21",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0083",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T08:52:55Z",
+   "updated_at": "2026-11-21T11:52:30Z",
+   "closed_at": "2026-11-21T09:22:57Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-20",
+   "evals": [
+    {
+     "comment_id": 7062180209,
+     "created_at": "2026-11-21T11:52:30Z",
+     "updated_at": "2026-11-21T11:52:30Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0084",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T08:52:53Z",
+   "updated_at": "2026-11-20T20:53:09Z",
+   "closed_at": "2026-11-20T19:49:46Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "18",
+   "due": "2026-11-20",
+   "evals": [
+    {
+     "comment_id": 7050355664,
+     "created_at": "2026-11-20T20:53:09Z",
+     "updated_at": "2026-11-20T20:53:09Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0085",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T05:52:43Z",
+   "updated_at": "2026-11-18T06:16:15Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "7",
+   "due": "2026-11-21",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0086",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T04:09:28Z",
+   "updated_at": "2026-11-18T04:15:33Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-24",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0087",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T02:52:31Z",
+   "updated_at": "2026-11-20T19:49:42Z",
+   "closed_at": "2026-11-20T19:49:42Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "6",
+   "due": "2026-11-24",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0088",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-18T02:52:30Z",
+   "updated_at": "2026-11-21T10:16:38Z",
+   "closed_at": "2026-11-21T10:16:38Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-24",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0089",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-17T23:55:54Z",
+   "updated_at": "2026-11-18T00:15:27Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-24",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0090",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-17T20:52:12Z",
+   "updated_at": "2026-11-17T21:15:30Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-20",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0091",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-17T11:52:19Z",
+   "updated_at": "2026-11-17T17:53:53Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-24",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0092",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-17T11:52:17Z",
+   "updated_at": "2026-11-17T12:14:09Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-24",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0093",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-17T05:54:33Z",
+   "updated_at": "2026-11-17T06:13:50Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "6",
+   "due": "2026-11-19",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0094",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-17T05:51:52Z",
+   "updated_at": "2026-11-17T06:13:47Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-20",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0095",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-17T05:51:51Z",
+   "updated_at": "2026-11-17T06:13:45Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-18",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0096",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-17T02:52:09Z",
+   "updated_at": "2026-11-21T05:24:46Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-21",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0097",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-17T02:52:07Z",
+   "updated_at": "2026-11-17T03:13:36Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-20",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0098",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-17T02:52:06Z",
+   "updated_at": "2026-11-17T03:13:34Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-20",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0099",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T23:53:25Z",
+   "updated_at": "2026-11-17T00:13:50Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-30",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0100",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T23:53:23Z",
+   "updated_at": "2026-11-17T00:13:46Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-30",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0101",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T23:53:22Z",
+   "updated_at": "2026-11-21T06:12:53Z",
+   "closed_at": "2026-11-21T06:12:53Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-30",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0102",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T23:53:21Z",
+   "updated_at": "2026-11-17T00:13:42Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-30",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0103",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T20:52:28Z",
+   "updated_at": "2026-11-16T21:13:44Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-30",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0104",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T20:52:26Z",
+   "updated_at": "2026-11-16T21:13:41Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-23",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0105",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T20:52:24Z",
+   "updated_at": "2026-11-16T21:13:38Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-23",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0106",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T20:52:23Z",
+   "updated_at": "2026-11-16T21:13:36Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-23",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0107",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T17:53:00Z",
+   "updated_at": "2026-11-16T19:19:48Z",
+   "closed_at": "2026-11-16T19:19:48Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-30",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0108",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T17:52:58Z",
+   "updated_at": "2026-11-16T18:13:35Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-30",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0109",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T14:44:46Z",
+   "updated_at": "2026-11-16T16:44:50Z",
+   "closed_at": "2026-11-16T16:44:50Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-30",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0110",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T14:44:45Z",
+   "updated_at": "2026-11-16T16:18:00Z",
+   "closed_at": "2026-11-16T16:18:00Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-30",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0111",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T12:10:24Z",
+   "updated_at": "2026-11-16T16:22:48Z",
+   "closed_at": "2026-11-16T16:22:48Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": null,
+   "due": "2026-12-07",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0112",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T12:10:18Z",
+   "updated_at": "2026-11-16T13:52:01Z",
+   "closed_at": "2026-11-16T13:52:01Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": null,
+   "due": "2026-12-14",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0113",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T12:10:12Z",
+   "updated_at": "2026-11-16T13:41:29Z",
+   "closed_at": "2026-11-16T13:41:29Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": null,
+   "due": "2026-12-14",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0114",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T11:54:21Z",
+   "updated_at": "2026-11-16T16:57:04Z",
+   "closed_at": "2026-11-16T16:57:04Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "4",
+   "due": "2026-11-23",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0115",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T11:54:19Z",
+   "updated_at": "2026-11-16T15:58:21Z",
+   "closed_at": "2026-11-16T15:58:21Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-30",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0116",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T09:19:23Z",
+   "updated_at": "2026-11-16T13:58:35Z",
+   "closed_at": "2026-11-16T13:58:35Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": null,
+   "due": "2026-11-30",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0117",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T08:51:53Z",
+   "updated_at": "2026-11-16T10:49:06Z",
+   "closed_at": "2026-11-16T10:49:06Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-30",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0118",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T08:51:51Z",
+   "updated_at": "2026-11-16T10:18:24Z",
+   "closed_at": "2026-11-16T10:18:24Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-30",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0119",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T07:24:45Z",
+   "updated_at": "2026-11-16T10:52:18Z",
+   "closed_at": "2026-11-16T10:52:18Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0120",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T05:51:57Z",
+   "updated_at": "2026-11-16T06:08:56Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-20",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0121",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T05:51:56Z",
+   "updated_at": "2026-11-19T17:53:45Z",
+   "closed_at": "2026-11-16T08:55:03Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-19",
+   "evals": [
+    {
+     "comment_id": 7017386988,
+     "created_at": "2026-11-19T17:53:45Z",
+     "updated_at": "2026-11-19T17:53:45Z",
+     "verdict": "unmeasurable"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0122",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-16T01:42:39Z",
+   "updated_at": "2026-11-16T07:05:18Z",
+   "closed_at": "2026-11-16T07:05:18Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-29",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0123",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T23:51:51Z",
+   "updated_at": "2026-11-16T02:01:32Z",
+   "closed_at": "2026-11-16T02:01:32Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-22",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0124",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T23:51:49Z",
+   "updated_at": "2026-11-16T07:24:58Z",
+   "closed_at": "2026-11-16T07:24:57Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-22",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0125",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T21:37:05Z",
+   "updated_at": "2026-11-22T20:55:09Z",
+   "closed_at": "2026-11-16T00:17:29Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "0",
+   "due": "2026-11-22",
+   "evals": [
+    {
+     "comment_id": 7085645427,
+     "created_at": "2026-11-22T20:55:09Z",
+     "updated_at": "2026-11-22T20:55:09Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0126",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T20:53:22Z",
+   "updated_at": "2026-11-16T04:10:41Z",
+   "closed_at": "2026-11-16T04:10:41Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0127",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T20:53:20Z",
+   "updated_at": "2026-11-22T20:55:08Z",
+   "closed_at": "2026-11-16T02:12:48Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-22",
+   "evals": [
+    {
+     "comment_id": 7085645200,
+     "created_at": "2026-11-22T20:55:08Z",
+     "updated_at": "2026-11-22T20:55:08Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0128",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T20:53:19Z",
+   "updated_at": "2026-11-15T23:29:59Z",
+   "closed_at": "2026-11-15T23:29:59Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0129",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T17:53:16Z",
+   "updated_at": "2026-11-15T18:13:32Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-29",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0130",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T17:53:15Z",
+   "updated_at": "2026-11-22T20:55:07Z",
+   "closed_at": "2026-11-15T20:09:56Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-22",
+   "evals": [
+    {
+     "comment_id": 7085645004,
+     "created_at": "2026-11-22T20:55:07Z",
+     "updated_at": "2026-11-22T20:55:07Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0131",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T17:53:13Z",
+   "updated_at": "2026-11-22T20:55:06Z",
+   "closed_at": "2026-11-15T19:40:21Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-22",
+   "evals": [
+    {
+     "comment_id": 7085644825,
+     "created_at": "2026-11-22T20:55:06Z",
+     "updated_at": "2026-11-22T20:55:06Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0132",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T14:51:50Z",
+   "updated_at": "2026-11-15T18:48:48Z",
+   "closed_at": "2026-11-15T18:48:48Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-29",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0133",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T14:51:49Z",
+   "updated_at": "2026-11-15T15:12:57Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-29",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0134",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T11:51:59Z",
+   "updated_at": "2026-11-15T16:30:51Z",
+   "closed_at": "2026-11-15T16:30:51Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-29",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0135",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T11:51:57Z",
+   "updated_at": "2026-11-22T17:54:28Z",
+   "closed_at": "2026-11-15T16:00:18Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-22",
+   "evals": [
+    {
+     "comment_id": 7083195334,
+     "created_at": "2026-11-22T17:54:28Z",
+     "updated_at": "2026-11-22T17:54:28Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0136",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T11:51:56Z",
+   "updated_at": "2026-11-22T17:54:27Z",
+   "closed_at": "2026-11-15T20:17:28Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "4",
+   "due": "2026-11-22",
+   "evals": [
+    {
+     "comment_id": 7083195076,
+     "created_at": "2026-11-22T17:54:27Z",
+     "updated_at": "2026-11-22T17:54:27Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0137",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T08:52:22Z",
+   "updated_at": "2026-11-22T17:54:26Z",
+   "closed_at": "2026-11-15T10:59:25Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "0",
+   "due": "2026-11-22",
+   "evals": [
+    {
+     "comment_id": 7083194788,
+     "created_at": "2026-11-22T17:54:26Z",
+     "updated_at": "2026-11-22T17:54:26Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0138",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T08:52:20Z",
+   "updated_at": "2026-11-15T08:52:20Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-22",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0139",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T08:52:19Z",
+   "updated_at": "2026-11-22T17:54:24Z",
+   "closed_at": "2026-11-15T10:59:23Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "6",
+   "due": "2026-11-22",
+   "evals": [
+    {
+     "comment_id": 7083194509,
+     "created_at": "2026-11-22T17:54:24Z",
+     "updated_at": "2026-11-22T17:54:24Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0140",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-15T02:53:13Z",
+   "updated_at": "2026-11-21T11:52:32Z",
+   "closed_at": "2026-11-15T06:06:51Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-21",
+   "evals": [
+    {
+     "comment_id": 7062180543,
+     "created_at": "2026-11-21T11:52:32Z",
+     "updated_at": "2026-11-21T11:52:32Z",
+     "verdict": "unmeasurable"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0141",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-14T08:54:09Z",
+   "updated_at": "2026-11-21T05:24:35Z",
+   "closed_at": "2026-11-21T05:24:35Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-28",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0142",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-14T02:55:32Z",
+   "updated_at": "2026-11-21T07:20:21Z",
+   "closed_at": "2026-11-21T07:20:21Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0143",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-14T02:55:30Z",
+   "updated_at": "2026-11-14T12:58:13Z",
+   "closed_at": "2026-11-14T12:58:13Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0144",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-14T02:55:29Z",
+   "updated_at": "2026-11-14T03:10:27Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "4",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0145",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T23:55:02Z",
+   "updated_at": "2026-11-14T00:10:12Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0146",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T23:55:01Z",
+   "updated_at": "2026-11-14T10:03:04Z",
+   "closed_at": "2026-11-14T10:03:04Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0147",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T17:57:39Z",
+   "updated_at": "2026-11-21T05:26:43Z",
+   "closed_at": "2026-11-21T05:24:39Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0148",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T17:57:38Z",
+   "updated_at": "2026-11-13T18:09:05Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0149",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T17:57:36Z",
+   "updated_at": "2026-11-13T18:08:53Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0150",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T17:57:35Z",
+   "updated_at": "2026-11-14T07:20:10Z",
+   "closed_at": "2026-11-14T07:20:10Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-27",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0151",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T13:25:02Z",
+   "updated_at": "2026-11-15T20:52:45Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6901184367,
+     "created_at": "2026-11-15T20:52:45Z",
+     "updated_at": "2026-11-15T20:52:45Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0152",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T11:54:30Z",
+   "updated_at": "2026-11-16T17:52:38Z",
+   "closed_at": "2026-11-13T18:44:02Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-16",
+   "evals": [
+    {
+     "comment_id": 6924470236,
+     "created_at": "2026-11-16T17:52:38Z",
+     "updated_at": "2026-11-16T17:52:38Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0153",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T11:54:28Z",
+   "updated_at": "2026-11-13T12:09:19Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-15",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0154",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T08:54:08Z",
+   "updated_at": "2026-11-20T08:52:40Z",
+   "closed_at": "2026-11-13T21:37:42Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-20",
+   "evals": [
+    {
+     "comment_id": 7034871344,
+     "created_at": "2026-11-20T08:52:40Z",
+     "updated_at": "2026-11-20T08:52:40Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0155",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T08:54:06Z",
+   "updated_at": "2026-11-20T08:52:42Z",
+   "closed_at": "2026-11-16T00:41:30Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-20",
+   "evals": [
+    {
+     "comment_id": 7034872064,
+     "created_at": "2026-11-20T08:52:42Z",
+     "updated_at": "2026-11-20T08:52:42Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0156",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T05:53:06Z",
+   "updated_at": "2026-11-19T17:53:44Z",
+   "closed_at": "2026-11-13T18:36:55Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "0",
+   "due": "2026-11-19",
+   "evals": [
+    {
+     "comment_id": 7017386563,
+     "created_at": "2026-11-19T17:53:44Z",
+     "updated_at": "2026-11-19T17:53:44Z",
+     "verdict": "unmeasurable"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0157",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T05:53:04Z",
+   "updated_at": "2026-11-19T11:52:42Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-16",
+   "evals": [
+    {
+     "comment_id": 7008304604,
+     "created_at": "2026-11-19T11:52:42Z",
+     "updated_at": "2026-11-19T11:52:42Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0158",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T05:53:03Z",
+   "updated_at": "2026-11-15T23:52:36Z",
+   "closed_at": "2026-11-15T21:45:27Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6903474971,
+     "created_at": "2026-11-15T23:52:36Z",
+     "updated_at": "2026-11-15T23:52:36Z",
+     "verdict": "unmeasurable"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0159",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T02:54:52Z",
+   "updated_at": "2026-11-13T03:08:35Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-26",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0160",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T02:54:50Z",
+   "updated_at": "2026-11-13T03:08:32Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "6",
+   "due": "2026-11-19",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0161",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-13T02:54:49Z",
+   "updated_at": "2026-11-13T14:33:27Z",
+   "closed_at": "2026-11-13T14:33:27Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-26",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0162",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T23:48:37Z",
+   "updated_at": "2026-11-19T14:53:41Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-19",
+   "evals": [
+    {
+     "comment_id": 7012680480,
+     "created_at": "2026-11-19T14:53:41Z",
+     "updated_at": "2026-11-19T14:53:41Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0163",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T23:48:36Z",
+   "updated_at": "2026-11-19T08:53:15Z",
+   "closed_at": "2026-11-13T19:04:49Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-19",
+   "evals": [
+    {
+     "comment_id": 7004375964,
+     "created_at": "2026-11-19T08:53:15Z",
+     "updated_at": "2026-11-19T08:53:15Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0164",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T23:48:35Z",
+   "updated_at": "2026-11-19T14:53:40Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-19",
+   "evals": [
+    {
+     "comment_id": 7012679955,
+     "created_at": "2026-11-19T14:53:40Z",
+     "updated_at": "2026-11-19T14:53:40Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0165",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T21:11:35Z",
+   "updated_at": "2026-11-19T08:53:14Z",
+   "closed_at": "2026-11-13T21:37:55Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-19",
+   "evals": [
+    {
+     "comment_id": 7004375609,
+     "created_at": "2026-11-19T08:53:14Z",
+     "updated_at": "2026-11-19T08:53:14Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0166",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T20:54:20Z",
+   "updated_at": "2026-11-17T05:52:47Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-16",
+   "evals": [
+    {
+     "comment_id": 6939980375,
+     "created_at": "2026-11-17T05:52:47Z",
+     "updated_at": "2026-11-17T05:52:47Z",
+     "verdict": "unmeasurable"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0167",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T17:55:42Z",
+   "updated_at": "2026-11-19T14:53:39Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-19",
+   "evals": [
+    {
+     "comment_id": 7012679347,
+     "created_at": "2026-11-19T14:53:38Z",
+     "updated_at": "2026-11-19T14:53:38Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0168",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T17:55:40Z",
+   "updated_at": "2026-11-19T08:53:12Z",
+   "closed_at": "2026-11-12T21:38:50Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-19",
+   "evals": [
+    {
+     "comment_id": 7004375217,
+     "created_at": "2026-11-19T08:53:12Z",
+     "updated_at": "2026-11-19T08:53:12Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0169",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T17:55:39Z",
+   "updated_at": "2026-11-19T08:53:12Z",
+   "closed_at": "2026-11-12T21:11:37Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-19",
+   "evals": [
+    {
+     "comment_id": 7004374922,
+     "created_at": "2026-11-19T08:53:11Z",
+     "updated_at": "2026-11-19T08:53:11Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0170",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T14:56:51Z",
+   "updated_at": "2026-11-12T14:56:51Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "4",
+   "due": "2026-11-19",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0171",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T14:55:09Z",
+   "updated_at": "2026-11-19T08:53:11Z",
+   "closed_at": "2026-11-13T21:37:46Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "4",
+   "due": "2026-11-19",
+   "evals": [
+    {
+     "comment_id": 7004374632,
+     "created_at": "2026-11-19T08:53:10Z",
+     "updated_at": "2026-11-19T08:53:10Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0172",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T14:55:08Z",
+   "updated_at": "2026-11-19T14:53:37Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-19",
+   "evals": [
+    {
+     "comment_id": 7012678762,
+     "created_at": "2026-11-19T14:53:37Z",
+     "updated_at": "2026-11-19T14:53:37Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0173",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T11:54:48Z",
+   "updated_at": "2026-11-14T08:55:00Z",
+   "closed_at": "2026-11-12T16:24:35Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6874837162,
+     "created_at": "2026-11-14T08:55:00Z",
+     "updated_at": "2026-11-14T08:55:00Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0174",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T11:54:46Z",
+   "updated_at": "2026-11-15T23:52:35Z",
+   "closed_at": "2026-11-15T20:00:46Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6903474733,
+     "created_at": "2026-11-15T23:52:35Z",
+     "updated_at": "2026-11-15T23:52:35Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0175",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T08:54:35Z",
+   "updated_at": "2026-11-12T13:25:01Z",
+   "closed_at": "2026-11-12T13:25:01Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-26",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0176",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T08:54:34Z",
+   "updated_at": "2026-11-12T16:41:09Z",
+   "closed_at": "2026-11-12T16:41:09Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-26",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0177",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T05:51:50Z",
+   "updated_at": "2026-11-12T07:41:13Z",
+   "closed_at": "2026-11-12T07:41:13Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0178",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T05:51:48Z",
+   "updated_at": "2026-11-12T12:45:19Z",
+   "closed_at": "2026-11-12T12:45:19Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0179",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T05:01:54Z",
+   "updated_at": "2026-11-12T07:17:10Z",
+   "closed_at": "2026-11-12T07:17:10Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0180",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T02:56:49Z",
+   "updated_at": "2026-11-12T03:07:36Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0181",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T02:55:08Z",
+   "updated_at": "2026-11-21T08:54:03Z",
+   "closed_at": "2026-11-12T06:15:53Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-21",
+   "evals": [
+    {
+     "comment_id": 7060219953,
+     "created_at": "2026-11-21T08:54:03Z",
+     "updated_at": "2026-11-21T08:54:03Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0182",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T02:55:06Z",
+   "updated_at": "2026-11-12T04:18:06Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0183",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-12T02:55:05Z",
+   "updated_at": "2026-11-12T03:58:25Z",
+   "closed_at": "2026-11-12T03:58:25Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0184",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T23:54:11Z",
+   "updated_at": "2026-11-18T14:55:20Z",
+   "closed_at": "2026-11-12T04:16:08Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-18",
+   "evals": [
+    {
+     "comment_id": 6982184696,
+     "created_at": "2026-11-18T14:55:20Z",
+     "updated_at": "2026-11-18T14:55:20Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0185",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T23:54:09Z",
+   "updated_at": "2026-11-12T03:53:08Z",
+   "closed_at": "2026-11-12T03:53:08Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0186",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T23:54:08Z",
+   "updated_at": "2026-11-11T23:54:20Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "8",
+   "due": "2026-11-18",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0187",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T21:10:45Z",
+   "updated_at": "2026-11-11T21:53:59Z",
+   "closed_at": "2026-11-11T21:53:59Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0188",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T20:54:44Z",
+   "updated_at": "2026-11-12T01:12:41Z",
+   "closed_at": "2026-11-12T01:12:41Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0189",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T20:54:43Z",
+   "updated_at": "2026-11-18T14:55:19Z",
+   "closed_at": "2026-11-11T23:33:54Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-18",
+   "evals": [
+    {
+     "comment_id": 6982183915,
+     "created_at": "2026-11-18T14:55:18Z",
+     "updated_at": "2026-11-18T14:55:18Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0190",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T17:55:17Z",
+   "updated_at": "2026-11-18T14:55:17Z",
+   "closed_at": "2026-11-13T21:38:17Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-18",
+   "evals": [
+    {
+     "comment_id": 6982183179,
+     "created_at": "2026-11-18T14:55:17Z",
+     "updated_at": "2026-11-18T14:55:17Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0191",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T17:55:16Z",
+   "updated_at": "2026-11-18T11:53:52Z",
+   "closed_at": "2026-11-11T20:11:44Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-18",
+   "evals": [
+    {
+     "comment_id": 6977801669,
+     "created_at": "2026-11-18T11:53:52Z",
+     "updated_at": "2026-11-18T11:53:52Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0192",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T17:55:14Z",
+   "updated_at": "2026-11-18T11:53:54Z",
+   "closed_at": "2026-11-11T21:09:45Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-18",
+   "evals": [
+    {
+     "comment_id": 6977802243,
+     "created_at": "2026-11-18T11:53:54Z",
+     "updated_at": "2026-11-18T11:53:54Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0193",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T14:54:06Z",
+   "updated_at": "2026-11-19T11:52:44Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-18",
+   "evals": [
+    {
+     "comment_id": 7008305057,
+     "created_at": "2026-11-19T11:52:44Z",
+     "updated_at": "2026-11-19T11:52:44Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0194",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T14:54:04Z",
+   "updated_at": "2026-11-11T14:54:04Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0195",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T14:54:03Z",
+   "updated_at": "2026-11-18T11:53:56Z",
+   "closed_at": "2026-11-11T18:17:21Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-18",
+   "evals": [
+    {
+     "comment_id": 6977802934,
+     "created_at": "2026-11-18T11:53:55Z",
+     "updated_at": "2026-11-18T11:53:55Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0196",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T14:03:46Z",
+   "updated_at": "2026-11-18T14:55:15Z",
+   "closed_at": "2026-11-11T14:12:30Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-18",
+   "evals": [
+    {
+     "comment_id": 6982182557,
+     "created_at": "2026-11-18T14:55:15Z",
+     "updated_at": "2026-11-18T14:55:15Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0197",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T11:53:09Z",
+   "updated_at": "2026-11-18T17:23:30Z",
+   "closed_at": "2026-11-11T12:27:04Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-18",
+   "evals": [
+    {
+     "comment_id": 6986142311,
+     "created_at": "2026-11-18T17:23:30Z",
+     "updated_at": "2026-11-18T17:23:30Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0198",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T11:53:08Z",
+   "updated_at": "2026-11-18T08:55:08Z",
+   "closed_at": "2026-11-11T12:47:27Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "4",
+   "due": "2026-11-18",
+   "evals": [
+    {
+     "comment_id": 6973756458,
+     "created_at": "2026-11-18T08:55:08Z",
+     "updated_at": "2026-11-18T08:55:08Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0199",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T11:53:06Z",
+   "updated_at": "2026-11-18T08:55:07Z",
+   "closed_at": "2026-11-11T12:47:29Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-18",
+   "evals": [
+    {
+     "comment_id": 6973755973,
+     "created_at": "2026-11-18T08:55:06Z",
+     "updated_at": "2026-11-18T08:55:06Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0200",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T08:52:21Z",
+   "updated_at": "2026-11-18T08:55:05Z",
+   "closed_at": "2026-11-11T11:12:45Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-18",
+   "evals": [
+    {
+     "comment_id": 6973755535,
+     "created_at": "2026-11-18T08:55:05Z",
+     "updated_at": "2026-11-18T08:55:05Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0201",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T08:52:20Z",
+   "updated_at": "2026-11-11T10:05:26Z",
+   "closed_at": "2026-11-11T10:05:26Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0202",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T08:52:18Z",
+   "updated_at": "2026-11-11T09:06:36Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0203",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T08:52:17Z",
+   "updated_at": "2026-11-18T08:55:09Z",
+   "closed_at": "2026-11-11T10:05:24Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-18",
+   "evals": [
+    {
+     "comment_id": 6973756898,
+     "created_at": "2026-11-18T08:55:09Z",
+     "updated_at": "2026-11-18T08:55:09Z",
+     "verdict": "unmeasurable"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0204",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T05:52:15Z",
+   "updated_at": "2026-11-11T11:08:58Z",
+   "closed_at": "2026-11-11T11:08:58Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-24",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0205",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T05:52:14Z",
+   "updated_at": "2026-11-11T06:53:49Z",
+   "closed_at": "2026-11-11T06:53:49Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-24",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0206",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T02:52:38Z",
+   "updated_at": "2026-11-17T14:54:59Z",
+   "closed_at": "2026-11-16T00:10:03Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-17",
+   "evals": [
+    {
+     "comment_id": 6951621411,
+     "created_at": "2026-11-17T14:54:58Z",
+     "updated_at": "2026-11-17T14:54:58Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0207",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-11T02:52:37Z",
+   "updated_at": "2026-11-17T14:54:57Z",
+   "closed_at": "2026-11-12T13:25:29Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-17",
+   "evals": [
+    {
+     "comment_id": 6951620769,
+     "created_at": "2026-11-17T14:54:57Z",
+     "updated_at": "2026-11-17T14:54:57Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0208",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T23:52:03Z",
+   "updated_at": "2026-11-17T14:54:56Z",
+   "closed_at": "2026-11-11T03:35:35Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-17",
+   "evals": [
+    {
+     "comment_id": 6951620129,
+     "created_at": "2026-11-17T14:54:56Z",
+     "updated_at": "2026-11-17T14:54:56Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0209",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T23:52:01Z",
+   "updated_at": "2026-11-17T20:53:24Z",
+   "closed_at": "2026-11-11T06:54:54Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-17",
+   "evals": [
+    {
+     "comment_id": 6960695838,
+     "created_at": "2026-11-17T20:53:24Z",
+     "updated_at": "2026-11-17T20:53:24Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0210",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T20:52:01Z",
+   "updated_at": "2026-11-14T08:55:02Z",
+   "closed_at": "2026-11-11T04:01:37Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6874837440,
+     "created_at": "2026-11-14T08:55:01Z",
+     "updated_at": "2026-11-14T08:55:01Z",
+     "verdict": "unmeasurable"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0211",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T20:52:00Z",
+   "updated_at": "2026-11-17T11:52:57Z",
+   "closed_at": "2026-11-11T04:22:22Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-17",
+   "evals": [
+    {
+     "comment_id": 6947266284,
+     "created_at": "2026-11-17T11:52:57Z",
+     "updated_at": "2026-11-17T11:52:57Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0212",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T15:44:28Z",
+   "updated_at": "2026-11-17T11:52:56Z",
+   "closed_at": "2026-11-16T00:10:01Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-17",
+   "evals": [
+    {
+     "comment_id": 6947265913,
+     "created_at": "2026-11-17T11:52:56Z",
+     "updated_at": "2026-11-17T11:52:56Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0213",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T15:44:10Z",
+   "updated_at": "2026-11-17T11:52:55Z",
+   "closed_at": "2026-11-13T21:38:00Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-17",
+   "evals": [
+    {
+     "comment_id": 6947265443,
+     "created_at": "2026-11-17T11:52:55Z",
+     "updated_at": "2026-11-17T11:52:55Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0214",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T13:56:42Z",
+   "updated_at": "2026-11-11T08:53:18Z",
+   "closed_at": "2026-11-11T04:01:21Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-11",
+   "evals": [
+    {
+     "comment_id": 6791499340,
+     "created_at": "2026-11-11T08:53:18Z",
+     "updated_at": "2026-11-11T08:53:18Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0215",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T13:56:41Z",
+   "updated_at": "2026-11-13T21:38:05Z",
+   "closed_at": "2026-11-13T21:38:05Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "0",
+   "due": "2026-11-11",
+   "evals": [
+    {
+     "comment_id": 6791499734,
+     "created_at": "2026-11-11T08:53:19Z",
+     "updated_at": "2026-11-11T08:53:19Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0216",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T13:56:39Z",
+   "updated_at": "2026-11-19T11:52:45Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-17",
+   "evals": [
+    {
+     "comment_id": 7008305387,
+     "created_at": "2026-11-19T11:52:45Z",
+     "updated_at": "2026-11-19T11:52:45Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0217",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T13:56:38Z",
+   "updated_at": "2026-11-17T11:52:54Z",
+   "closed_at": "2026-11-13T09:43:47Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-17",
+   "evals": [
+    {
+     "comment_id": 6947264917,
+     "created_at": "2026-11-17T11:52:53Z",
+     "updated_at": "2026-11-17T11:52:53Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0218",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T10:58:12Z",
+   "updated_at": "2026-11-17T08:53:26Z",
+   "closed_at": "2026-11-10T13:46:32Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-17",
+   "evals": [
+    {
+     "comment_id": 6943341747,
+     "created_at": "2026-11-17T08:53:25Z",
+     "updated_at": "2026-11-17T08:53:25Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0219",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T10:58:10Z",
+   "updated_at": "2026-11-17T08:53:24Z",
+   "closed_at": "2026-11-11T17:08:23Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-17",
+   "evals": [
+    {
+     "comment_id": 6943341377,
+     "created_at": "2026-11-17T08:53:24Z",
+     "updated_at": "2026-11-17T08:53:24Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0220",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T07:59:20Z",
+   "updated_at": "2026-11-17T08:53:23Z",
+   "closed_at": "2026-11-11T04:37:08Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-17",
+   "evals": [
+    {
+     "comment_id": 6943340972,
+     "created_at": "2026-11-17T08:53:23Z",
+     "updated_at": "2026-11-17T08:53:23Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0221",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T07:59:19Z",
+   "updated_at": "2026-11-17T08:53:22Z",
+   "closed_at": "2026-11-11T04:29:17Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-17",
+   "evals": [
+    {
+     "comment_id": 6943340574,
+     "created_at": "2026-11-17T08:53:22Z",
+     "updated_at": "2026-11-17T08:53:22Z",
+     "verdict": "unmeasurable"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0222",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T07:59:17Z",
+   "updated_at": "2026-11-17T08:53:21Z",
+   "closed_at": "2026-11-10T12:51:20Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-17",
+   "evals": [
+    {
+     "comment_id": 6943340142,
+     "created_at": "2026-11-17T08:53:21Z",
+     "updated_at": "2026-11-17T08:53:21Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0223",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T05:20:15Z",
+   "updated_at": "2026-11-16T17:52:37Z",
+   "closed_at": "2026-11-10T07:38:29Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-16",
+   "evals": [
+    {
+     "comment_id": 6924469884,
+     "created_at": "2026-11-16T17:52:37Z",
+     "updated_at": "2026-11-16T17:52:37Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0224",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T05:20:13Z",
+   "updated_at": "2026-11-12T11:53:11Z",
+   "closed_at": "2026-11-10T09:29:40Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-12",
+   "evals": [
+    {
+     "comment_id": 6822861181,
+     "created_at": "2026-11-12T11:53:11Z",
+     "updated_at": "2026-11-12T11:53:11Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0225",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T05:20:12Z",
+   "updated_at": "2026-11-12T11:53:10Z",
+   "closed_at": "2026-11-10T09:58:23Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-12",
+   "evals": [
+    {
+     "comment_id": 6822860815,
+     "created_at": "2026-11-12T11:53:10Z",
+     "updated_at": "2026-11-12T11:53:10Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0226",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T02:54:09Z",
+   "updated_at": "2026-11-12T11:53:13Z",
+   "closed_at": "2026-11-10T15:26:14Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-12",
+   "evals": [
+    {
+     "comment_id": 6822861623,
+     "created_at": "2026-11-12T11:53:13Z",
+     "updated_at": "2026-11-12T11:53:13Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0227",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T02:54:08Z",
+   "updated_at": "2026-11-12T08:55:45Z",
+   "closed_at": "2026-11-11T21:14:54Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-12",
+   "evals": [
+    {
+     "comment_id": 6819212103,
+     "created_at": "2026-11-12T08:55:45Z",
+     "updated_at": "2026-11-12T08:55:45Z",
+     "verdict": "unmeasurable"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0228",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-10T02:54:07Z",
+   "updated_at": "2026-11-15T23:52:37Z",
+   "closed_at": "2026-11-15T23:04:55Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-12",
+   "evals": [
+    {
+     "comment_id": 6903475242,
+     "created_at": "2026-11-15T23:52:37Z",
+     "updated_at": "2026-11-15T23:52:37Z",
+     "verdict": "unmeasurable"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0229",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T23:52:52Z",
+   "updated_at": "2026-11-12T08:55:44Z",
+   "closed_at": "2026-11-10T13:33:47Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-12",
+   "evals": [
+    {
+     "comment_id": 6819211725,
+     "created_at": "2026-11-12T08:55:44Z",
+     "updated_at": "2026-11-12T08:55:44Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0230",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T23:52:50Z",
+   "updated_at": "2026-11-12T08:55:43Z",
+   "closed_at": "2026-11-10T03:33:37Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-12",
+   "evals": [
+    {
+     "comment_id": 6819211408,
+     "created_at": "2026-11-12T08:55:43Z",
+     "updated_at": "2026-11-12T08:55:43Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0231",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T20:52:41Z",
+   "updated_at": "2026-11-10T13:35:25Z",
+   "closed_at": "2026-11-10T13:35:25Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-23",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0232",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T20:52:39Z",
+   "updated_at": "2026-11-09T21:00:31Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-16",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0233",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T17:52:30Z",
+   "updated_at": "2026-11-16T11:52:08Z",
+   "closed_at": "2026-11-10T10:57:50Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "5",
+   "due": "2026-11-16",
+   "evals": [
+    {
+     "comment_id": 6915639941,
+     "created_at": "2026-11-16T11:52:08Z",
+     "updated_at": "2026-11-16T11:52:08Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0234",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T17:52:28Z",
+   "updated_at": "2026-11-16T11:52:07Z",
+   "closed_at": "2026-11-09T21:43:02Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-16",
+   "evals": [
+    {
+     "comment_id": 6915639560,
+     "created_at": "2026-11-16T11:52:07Z",
+     "updated_at": "2026-11-16T11:52:07Z",
+     "verdict": "unmeasurable"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0235",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T17:52:27Z",
+   "updated_at": "2026-11-16T08:53:46Z",
+   "closed_at": "2026-11-11T18:55:32Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-16",
+   "evals": [
+    {
+     "comment_id": 6911834583,
+     "created_at": "2026-11-16T08:53:46Z",
+     "updated_at": "2026-11-16T08:53:46Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0236",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T14:52:08Z",
+   "updated_at": "2026-11-16T11:52:06Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-16",
+   "evals": [
+    {
+     "comment_id": 6915639206,
+     "created_at": "2026-11-16T11:52:06Z",
+     "updated_at": "2026-11-16T11:52:06Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0237",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T14:52:06Z",
+   "updated_at": "2026-11-16T11:52:05Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-16",
+   "evals": [
+    {
+     "comment_id": 6915638809,
+     "created_at": "2026-11-16T11:52:05Z",
+     "updated_at": "2026-11-16T11:52:05Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0238",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T13:50:53Z",
+   "updated_at": "2026-11-09T18:12:44Z",
+   "closed_at": "2026-11-09T18:12:44Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0239",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T11:52:33Z",
+   "updated_at": "2026-11-09T12:02:27Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-23",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0240",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T11:52:31Z",
+   "updated_at": "2026-11-16T08:53:45Z",
+   "closed_at": "2026-11-09T12:50:54Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-16",
+   "evals": [
+    {
+     "comment_id": 6911834154,
+     "created_at": "2026-11-16T08:53:45Z",
+     "updated_at": "2026-11-16T08:53:45Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0241",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T11:52:30Z",
+   "updated_at": "2026-11-16T08:53:43Z",
+   "closed_at": "2026-11-13T21:37:50Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-16",
+   "evals": [
+    {
+     "comment_id": 6911833652,
+     "created_at": "2026-11-16T08:53:43Z",
+     "updated_at": "2026-11-16T08:53:43Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0242",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T08:52:57Z",
+   "updated_at": "2026-11-16T08:53:42Z",
+   "closed_at": "2026-11-09T09:45:15Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-16",
+   "evals": [
+    {
+     "comment_id": 6911833259,
+     "created_at": "2026-11-16T08:53:42Z",
+     "updated_at": "2026-11-16T08:53:42Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0243",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T08:52:56Z",
+   "updated_at": "2026-11-16T11:52:03Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-16",
+   "evals": [
+    {
+     "comment_id": 6915638046,
+     "created_at": "2026-11-16T11:52:03Z",
+     "updated_at": "2026-11-16T11:52:03Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0244",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T08:52:55Z",
+   "updated_at": "2026-11-16T08:53:41Z",
+   "closed_at": "2026-11-09T10:11:56Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-16",
+   "evals": [
+    {
+     "comment_id": 6911832855,
+     "created_at": "2026-11-16T08:53:41Z",
+     "updated_at": "2026-11-16T08:53:41Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0245",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T05:53:16Z",
+   "updated_at": "2026-11-09T06:24:10Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-22",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0246",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T05:53:15Z",
+   "updated_at": "2026-11-15T14:52:57Z",
+   "closed_at": "2026-11-09T06:36:37Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6896407281,
+     "created_at": "2026-11-15T14:52:56Z",
+     "updated_at": "2026-11-15T14:52:56Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0247",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T05:53:13Z",
+   "updated_at": "2026-11-09T06:24:07Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-22",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0248",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T02:52:56Z",
+   "updated_at": "2026-11-09T02:52:56Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-15",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0249",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T02:52:55Z",
+   "updated_at": "2026-11-15T14:52:58Z",
+   "closed_at": "2026-11-09T03:58:38Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6896407480,
+     "created_at": "2026-11-15T14:52:57Z",
+     "updated_at": "2026-11-15T14:52:57Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0250",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-09T02:52:53Z",
+   "updated_at": "2026-11-15T14:52:59Z",
+   "closed_at": "2026-11-09T04:06:48Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6896407780,
+     "created_at": "2026-11-15T14:52:59Z",
+     "updated_at": "2026-11-15T14:52:59Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0251",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-08T23:52:41Z",
+   "updated_at": "2026-11-15T14:53:00Z",
+   "closed_at": "2026-11-09T05:26:04Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6896408005,
+     "created_at": "2026-11-15T14:53:00Z",
+     "updated_at": "2026-11-15T14:53:00Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0252",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-08T23:52:40Z",
+   "updated_at": "2026-11-15T17:52:55Z",
+   "closed_at": "2026-11-09T03:16:54Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6898728968,
+     "created_at": "2026-11-15T17:52:54Z",
+     "updated_at": "2026-11-15T17:52:54Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0253",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-08T20:54:25Z",
+   "updated_at": "2026-11-16T02:52:15Z",
+   "closed_at": "2026-11-16T00:10:04Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6905950947,
+     "created_at": "2026-11-16T02:52:15Z",
+     "updated_at": "2026-11-16T02:52:15Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0254",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-08T17:54:11Z",
+   "updated_at": "2026-11-15T17:52:53Z",
+   "closed_at": "2026-11-08T21:38:38Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6898728710,
+     "created_at": "2026-11-15T17:52:53Z",
+     "updated_at": "2026-11-15T17:52:53Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0255",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-08T17:54:10Z",
+   "updated_at": "2026-11-22T17:59:01Z",
+   "closed_at": "2026-11-08T19:27:45Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-22",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0256",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-08T14:20:32Z",
+   "updated_at": "2026-11-15T17:52:52Z",
+   "closed_at": "2026-11-09T13:51:08Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6898728433,
+     "created_at": "2026-11-15T17:52:52Z",
+     "updated_at": "2026-11-15T17:52:52Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0257",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-08T14:20:31Z",
+   "updated_at": "2026-11-15T11:52:52Z",
+   "closed_at": "2026-11-08T16:50:56Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "9",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6893902981,
+     "created_at": "2026-11-15T11:52:52Z",
+     "updated_at": "2026-11-15T11:52:52Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0258",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-08T14:20:29Z",
+   "updated_at": "2026-11-15T11:52:51Z",
+   "closed_at": "2026-11-08T16:23:04Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6893902795,
+     "created_at": "2026-11-15T11:52:51Z",
+     "updated_at": "2026-11-15T11:52:51Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0259",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-08T11:49:20Z",
+   "updated_at": "2026-11-15T11:52:50Z",
+   "closed_at": "2026-11-08T13:41:34Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6893902612,
+     "created_at": "2026-11-15T11:52:50Z",
+     "updated_at": "2026-11-15T11:52:50Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0260",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-08T08:52:24Z",
+   "updated_at": "2026-11-15T11:52:49Z",
+   "closed_at": "2026-11-13T21:38:13Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6893902391,
+     "created_at": "2026-11-15T11:52:49Z",
+     "updated_at": "2026-11-15T11:52:49Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0261",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-08T08:52:23Z",
+   "updated_at": "2026-11-15T11:52:47Z",
+   "closed_at": "2026-11-08T09:32:36Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6893902163,
+     "created_at": "2026-11-15T11:52:47Z",
+     "updated_at": "2026-11-15T11:52:47Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0262",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-08T05:34:24Z",
+   "updated_at": "2026-11-21T08:54:02Z",
+   "closed_at": "2026-11-12T00:42:32Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-21",
+   "evals": [
+    {
+     "comment_id": 7060219686,
+     "created_at": "2026-11-21T08:54:02Z",
+     "updated_at": "2026-11-21T08:54:02Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0263",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-08T02:53:21Z",
+   "updated_at": "2026-11-21T08:54:00Z",
+   "closed_at": "2026-11-08T07:50:13Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-21",
+   "evals": [
+    {
+     "comment_id": 7060219441,
+     "created_at": "2026-11-21T08:54:00Z",
+     "updated_at": "2026-11-21T08:54:00Z",
+     "verdict": "unmeasurable"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0264",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-08T02:53:20Z",
+   "updated_at": "2026-11-21T08:53:59Z",
+   "closed_at": "2026-11-13T14:33:28Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "4",
+   "due": "2026-11-21",
+   "evals": [
+    {
+     "comment_id": 7060219233,
+     "created_at": "2026-11-21T08:53:59Z",
+     "updated_at": "2026-11-21T08:53:59Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0265",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-08T02:53:19Z",
+   "updated_at": "2026-11-21T08:53:58Z",
+   "closed_at": "2026-11-08T04:09:37Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-21",
+   "evals": [
+    {
+     "comment_id": 7060219053,
+     "created_at": "2026-11-21T08:53:58Z",
+     "updated_at": "2026-11-21T08:53:58Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0266",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T23:13:44Z",
+   "updated_at": "2026-11-14T08:55:03Z",
+   "closed_at": "2026-11-08T07:27:37Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6874837635,
+     "created_at": "2026-11-14T08:55:03Z",
+     "updated_at": "2026-11-14T08:55:03Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0267",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T23:13:43Z",
+   "updated_at": "2026-11-14T08:55:04Z",
+   "closed_at": "2026-11-08T01:59:00Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6874837841,
+     "created_at": "2026-11-14T08:55:04Z",
+     "updated_at": "2026-11-14T08:55:04Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0268",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T23:13:42Z",
+   "updated_at": "2026-11-14T08:55:05Z",
+   "closed_at": "2026-11-08T07:27:39Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "5",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6874838020,
+     "created_at": "2026-11-14T08:55:05Z",
+     "updated_at": "2026-11-14T08:55:05Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0269",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T20:29:19Z",
+   "updated_at": "2026-11-15T08:53:50Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6891964621,
+     "created_at": "2026-11-15T08:53:50Z",
+     "updated_at": "2026-11-15T08:53:50Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0270",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T16:55:33Z",
+   "updated_at": "2026-11-15T08:53:49Z",
+   "closed_at": "2026-11-07T19:06:56Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "0",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6891964409,
+     "created_at": "2026-11-15T08:53:49Z",
+     "updated_at": "2026-11-15T08:53:49Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0271",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T16:55:30Z",
+   "updated_at": "2026-11-15T08:53:47Z",
+   "closed_at": "2026-11-07T21:30:14Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6891964172,
+     "created_at": "2026-11-15T08:53:47Z",
+     "updated_at": "2026-11-15T08:53:47Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0272",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T13:57:26Z",
+   "updated_at": "2026-11-15T02:53:13Z",
+   "closed_at": "2026-11-08T05:40:07Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6888201451,
+     "created_at": "2026-11-15T02:53:13Z",
+     "updated_at": "2026-11-15T02:53:13Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0273",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T13:50:54Z",
+   "updated_at": "2026-11-15T02:53:12Z",
+   "closed_at": "2026-11-08T07:27:45Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6888201270,
+     "created_at": "2026-11-15T02:53:12Z",
+     "updated_at": "2026-11-15T02:53:12Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0274",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T13:50:53Z",
+   "updated_at": "2026-11-15T02:53:11Z",
+   "closed_at": "2026-11-08T01:39:31Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6888201084,
+     "created_at": "2026-11-15T02:53:11Z",
+     "updated_at": "2026-11-15T02:53:11Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0275",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T11:26:06Z",
+   "updated_at": "2026-11-15T02:53:10Z",
+   "closed_at": "2026-11-07T12:32:46Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6888200893,
+     "created_at": "2026-11-15T02:53:10Z",
+     "updated_at": "2026-11-15T02:53:10Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0276",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T07:55:23Z",
+   "updated_at": "2026-11-13T08:55:10Z",
+   "closed_at": "2026-11-07T10:40:53Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "11",
+   "due": "2026-11-13",
+   "evals": [
+    {
+     "comment_id": 6848466682,
+     "created_at": "2026-11-13T08:55:10Z",
+     "updated_at": "2026-11-13T08:55:10Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0277",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T07:55:22Z",
+   "updated_at": "2026-11-13T08:55:18Z",
+   "closed_at": "2026-11-07T10:11:52Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-13",
+   "evals": [
+    {
+     "comment_id": 6848467104,
+     "created_at": "2026-11-13T08:55:12Z",
+     "updated_at": "2026-11-13T08:55:18Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0278",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T07:55:21Z",
+   "updated_at": "2026-11-13T08:55:13Z",
+   "closed_at": "2026-11-07T09:57:39Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-13",
+   "evals": [
+    {
+     "comment_id": 6848467581,
+     "created_at": "2026-11-13T08:55:13Z",
+     "updated_at": "2026-11-13T08:55:13Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0279",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T05:36:49Z",
+   "updated_at": "2026-11-13T11:54:14Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-13",
+   "evals": [
+    {
+     "comment_id": 6852088570,
+     "created_at": "2026-11-13T11:54:14Z",
+     "updated_at": "2026-11-13T11:54:14Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0280",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T05:36:48Z",
+   "updated_at": "2026-11-13T08:55:14Z",
+   "closed_at": "2026-11-08T01:39:34Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-13",
+   "evals": [
+    {
+     "comment_id": 6848467979,
+     "created_at": "2026-11-13T08:55:14Z",
+     "updated_at": "2026-11-13T08:55:14Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0281",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T05:36:46Z",
+   "updated_at": "2026-11-08T21:25:49Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "5",
+   "due": "2026-11-13",
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0282",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T02:36:27Z",
+   "updated_at": "2026-11-12T08:55:42Z",
+   "closed_at": "2026-11-11T16:54:42Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-12",
+   "evals": [
+    {
+     "comment_id": 6819211073,
+     "created_at": "2026-11-12T08:55:42Z",
+     "updated_at": "2026-11-12T08:55:42Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0283",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-07T02:36:18Z",
+   "updated_at": "2026-11-12T08:55:41Z",
+   "closed_at": "2026-11-08T07:27:42Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-12",
+   "evals": [
+    {
+     "comment_id": 6819210704,
+     "created_at": "2026-11-12T08:55:41Z",
+     "updated_at": "2026-11-12T08:55:41Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "infrastructure-0284",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-06T23:36:25Z",
+   "updated_at": "2026-11-08T07:27:44Z",
+   "closed_at": "2026-11-08T07:27:44Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0285",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-06T23:36:24Z",
+   "updated_at": "2026-11-07T03:51:15Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0286",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-06T20:52:19Z",
+   "updated_at": "2026-11-08T12:47:33Z",
+   "closed_at": "2026-11-08T12:47:33Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0287",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-06T17:52:46Z",
+   "updated_at": "2026-11-06T17:58:22Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0288",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-06T14:15:33Z",
+   "updated_at": "2026-11-15T00:50:17Z",
+   "closed_at": "2026-11-15T00:50:17Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0289",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-06T11:53:35Z",
+   "updated_at": "2026-11-06T15:41:48Z",
+   "closed_at": "2026-11-06T15:41:47Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0290",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-06T11:53:34Z",
+   "updated_at": "2026-11-06T13:32:11Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0291",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-06T08:26:44Z",
+   "updated_at": "2026-11-06T18:23:31Z",
+   "closed_at": "2026-11-06T18:23:31Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0292",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-06T05:51:15Z",
+   "updated_at": "2026-11-06T18:41:51Z",
+   "closed_at": "2026-11-06T18:41:51Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0293",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-06T05:51:14Z",
+   "updated_at": "2026-11-07T09:14:05Z",
+   "closed_at": "2026-11-07T09:14:05Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0294",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-06T05:51:13Z",
+   "updated_at": "2026-11-06T09:13:03Z",
+   "closed_at": "2026-11-06T09:12:48Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0295",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-06T02:52:19Z",
+   "updated_at": "2026-11-06T04:53:27Z",
+   "closed_at": "2026-11-06T04:53:27Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "infrastructure-0296",
+   "source": "infrastructure",
+   "label": "from-retro",
+   "created_at": "2026-11-06T02:52:18Z",
+   "updated_at": "2026-11-06T18:03:47Z",
+   "closed_at": "2026-11-06T18:03:47Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0001",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-18T23:52:18Z",
+   "updated_at": "2026-11-21T04:53:46Z",
+   "closed_at": "2026-11-21T04:53:46Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "product-0002",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-18T20:43:45Z",
+   "updated_at": "2026-11-22T03:54:08Z",
+   "closed_at": "2026-11-22T03:54:08Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "product-0003",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-18T11:52:50Z",
+   "updated_at": "2026-11-22T00:49:03Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "product-0004",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-18T05:52:46Z",
+   "updated_at": "2026-11-20T21:06:00Z",
+   "closed_at": "2026-11-20T21:06:00Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-25",
+   "evals": []
+  },
+  {
+   "id": "product-0005",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-18T05:52:45Z",
+   "updated_at": "2026-11-20T19:49:35Z",
+   "closed_at": "2026-11-20T19:49:35Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "4",
+   "due": "2026-11-24",
+   "evals": []
+  },
+  {
+   "id": "product-0006",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-17T20:52:13Z",
+   "updated_at": "2026-11-22T00:49:05Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-21",
+   "evals": [
+    {
+     "comment_id": 7064432716,
+     "created_at": "2026-11-21T14:52:04Z",
+     "updated_at": "2026-11-21T14:52:04Z",
+     "verdict": "unmeasurable"
+    }
+   ]
+  },
+  {
+   "id": "product-0007",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-17T17:53:42Z",
+   "updated_at": "2026-11-21T03:44:00Z",
+   "closed_at": "2026-11-21T03:44:00Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-24",
+   "evals": []
+  },
+  {
+   "id": "product-0008",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-17T14:55:11Z",
+   "updated_at": "2026-11-17T17:53:40Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-24",
+   "evals": []
+  },
+  {
+   "id": "product-0009",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-17T08:52:38Z",
+   "updated_at": "2026-11-18T02:32:56Z",
+   "closed_at": "2026-11-18T02:32:56Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-24",
+   "evals": []
+  },
+  {
+   "id": "product-0010",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-16T00:21:14Z",
+   "updated_at": "2026-11-16T04:12:15Z",
+   "closed_at": "2026-11-16T04:12:15Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-29",
+   "evals": []
+  },
+  {
+   "id": "product-0011",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-15T23:51:48Z",
+   "updated_at": "2026-11-22T08:53:06Z",
+   "closed_at": "2026-11-16T01:40:18Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-22",
+   "evals": [
+    {
+     "comment_id": 7076795389,
+     "created_at": "2026-11-22T08:53:06Z",
+     "updated_at": "2026-11-22T08:53:06Z",
+     "verdict": "unmeasurable"
+    }
+   ]
+  },
+  {
+   "id": "product-0012",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-15T08:52:23Z",
+   "updated_at": "2026-11-20T19:49:37Z",
+   "closed_at": "2026-11-20T19:49:37Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "0",
+   "due": "2026-11-29",
+   "evals": []
+  },
+  {
+   "id": "product-0013",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-09T10:01:56Z",
+   "updated_at": "2026-11-16T17:52:40Z",
+   "closed_at": "2026-11-09T13:41:46Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-16",
+   "evals": [
+    {
+     "comment_id": 6924470658,
+     "created_at": "2026-11-16T17:52:40Z",
+     "updated_at": "2026-11-16T17:52:40Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "product-0014",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-09T02:53:06Z",
+   "updated_at": "2026-11-15T20:52:44Z",
+   "closed_at": "2026-11-09T04:58:34Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6901184103,
+     "created_at": "2026-11-15T20:52:44Z",
+     "updated_at": "2026-11-15T20:52:44Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "product-0015",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-08T11:49:23Z",
+   "updated_at": "2026-11-15T20:52:43Z",
+   "closed_at": "2026-11-08T14:00:17Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6901183761,
+     "created_at": "2026-11-15T20:52:43Z",
+     "updated_at": "2026-11-15T20:52:43Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "product-0016",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-08T11:49:21Z",
+   "updated_at": "2026-11-15T20:52:42Z",
+   "closed_at": "2026-11-08T15:20:42Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6901183486,
+     "created_at": "2026-11-15T20:52:42Z",
+     "updated_at": "2026-11-15T20:52:42Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "product-0017",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-08T11:45:51Z",
+   "updated_at": "2026-11-15T08:53:53Z",
+   "closed_at": "2026-11-08T12:44:09Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6891965117,
+     "created_at": "2026-11-15T08:53:53Z",
+     "updated_at": "2026-11-15T08:53:53Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "product-0018",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-08T11:16:23Z",
+   "updated_at": "2026-11-15T08:53:51Z",
+   "closed_at": "2026-11-12T13:39:29Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-15",
+   "evals": [
+    {
+     "comment_id": 6891964826,
+     "created_at": "2026-11-15T08:53:51Z",
+     "updated_at": "2026-11-15T08:53:51Z",
+     "verdict": "unmeasurable"
+    }
+   ]
+  },
+  {
+   "id": "product-0019",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-07T20:29:21Z",
+   "updated_at": "2026-11-14T11:56:14Z",
+   "closed_at": "2026-11-12T13:39:31Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6876898948,
+     "created_at": "2026-11-14T11:56:14Z",
+     "updated_at": "2026-11-14T11:56:14Z",
+     "verdict": "not-held"
+    }
+   ]
+  },
+  {
+   "id": "product-0020",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-07T16:55:31Z",
+   "updated_at": "2026-11-14T11:56:13Z",
+   "closed_at": "2026-11-07T20:08:02Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6876898727,
+     "created_at": "2026-11-14T11:56:13Z",
+     "updated_at": "2026-11-14T11:56:13Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "product-0021",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-07T13:51:12Z",
+   "updated_at": "2026-11-14T11:56:12Z",
+   "closed_at": "2026-11-08T00:11:27Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "3",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6876898495,
+     "created_at": "2026-11-14T11:56:12Z",
+     "updated_at": "2026-11-14T11:56:12Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "product-0022",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-07T13:51:11Z",
+   "updated_at": "2026-11-14T11:56:11Z",
+   "closed_at": "2026-11-08T00:11:29Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "2",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6876898285,
+     "created_at": "2026-11-14T11:56:10Z",
+     "updated_at": "2026-11-14T11:56:10Z",
+     "verdict": "held"
+    }
+   ]
+  },
+  {
+   "id": "product-0023",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-07T11:26:08Z",
+   "updated_at": "2026-11-15T23:52:39Z",
+   "closed_at": "2026-11-07T12:19:40Z",
+   "state": "closed",
+   "has_predicts": true,
+   "seen": "1",
+   "due": "2026-11-14",
+   "evals": [
+    {
+     "comment_id": 6903475540,
+     "created_at": "2026-11-15T23:52:39Z",
+     "updated_at": "2026-11-15T23:52:39Z",
+     "verdict": "unmeasurable"
+    }
+   ]
+  },
+  {
+   "id": "product-0024",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-06T20:52:21Z",
+   "updated_at": "2026-11-07T01:08:07Z",
+   "closed_at": "2026-11-07T01:08:07Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0025",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-06T15:48:12Z",
+   "updated_at": "2026-11-06T18:33:33Z",
+   "closed_at": "2026-11-06T18:33:33Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0026",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-06T14:15:34Z",
+   "updated_at": "2026-11-06T19:12:08Z",
+   "closed_at": "2026-11-06T19:12:08Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0027",
+   "source": "product",
+   "label": "from-retro",
+   "created_at": "2026-11-06T08:26:45Z",
+   "updated_at": "2026-11-06T12:52:24Z",
+   "closed_at": "2026-11-06T12:52:23Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0028",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-22T08:54:06Z",
+   "updated_at": "2026-11-22T18:27:58Z",
+   "closed_at": "2026-11-22T18:27:58Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0029",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-22T08:54:05Z",
+   "updated_at": "2026-11-22T08:54:05Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0030",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-22T08:54:04Z",
+   "updated_at": "2026-11-22T08:54:04Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0031",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-21T08:52:43Z",
+   "updated_at": "2026-11-22T05:09:47Z",
+   "closed_at": "2026-11-22T05:09:47Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0032",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-21T08:52:42Z",
+   "updated_at": "2026-11-21T13:36:33Z",
+   "closed_at": "2026-11-21T13:36:32Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0033",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-20T08:56:07Z",
+   "updated_at": "2026-11-20T21:19:44Z",
+   "closed_at": "2026-11-20T21:19:44Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0034",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-20T08:56:06Z",
+   "updated_at": "2026-11-20T08:56:06Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0035",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-20T08:56:04Z",
+   "updated_at": "2026-11-20T21:19:46Z",
+   "closed_at": "2026-11-20T21:19:46Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0036",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-19T08:55:46Z",
+   "updated_at": "2026-11-21T07:16:53Z",
+   "closed_at": "2026-11-21T07:16:53Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0037",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-19T08:55:44Z",
+   "updated_at": "2026-11-22T00:48:56Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0038",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-19T08:55:42Z",
+   "updated_at": "2026-11-21T16:46:57Z",
+   "closed_at": "2026-11-21T16:46:57Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0039",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-18T08:58:50Z",
+   "updated_at": "2026-11-18T14:04:44Z",
+   "closed_at": "2026-11-18T14:04:44Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0040",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-18T08:58:48Z",
+   "updated_at": "2026-11-18T13:59:20Z",
+   "closed_at": "2026-11-18T13:59:20Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0041",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-18T08:58:46Z",
+   "updated_at": "2026-11-21T07:48:49Z",
+   "closed_at": "2026-11-21T07:48:49Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0042",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-17T08:53:34Z",
+   "updated_at": "2026-11-22T21:24:48Z",
+   "closed_at": "2026-11-22T21:24:48Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0043",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-17T08:53:33Z",
+   "updated_at": "2026-11-22T00:49:10Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0044",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-17T08:53:32Z",
+   "updated_at": "2026-11-21T05:25:13Z",
+   "closed_at": "2026-11-21T05:25:12Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0045",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-17T00:00:32Z",
+   "updated_at": "2026-11-17T00:00:32Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0046",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-17T00:00:30Z",
+   "updated_at": "2026-11-17T00:00:30Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0047",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-17T00:00:29Z",
+   "updated_at": "2026-11-19T14:23:46Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0048",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-17T00:00:27Z",
+   "updated_at": "2026-11-21T09:23:08Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0049",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:51:01Z",
+   "updated_at": "2026-11-19T00:50:15Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0050",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:29:42Z",
+   "updated_at": "2026-11-18T19:29:18Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0051",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:29:41Z",
+   "updated_at": "2026-11-22T01:17:04Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0052",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:20:29Z",
+   "updated_at": "2026-11-18T12:46:12Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0053",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:20:26Z",
+   "updated_at": "2026-11-18T04:45:19Z",
+   "closed_at": "2026-11-18T04:45:19Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0054",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:20:25Z",
+   "updated_at": "2026-11-16T23:20:25Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0055",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:20:23Z",
+   "updated_at": "2026-11-17T07:14:41Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0056",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:20:21Z",
+   "updated_at": "2026-11-22T04:59:44Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0057",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:14:58Z",
+   "updated_at": "2026-11-17T04:42:07Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0058",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:11:27Z",
+   "updated_at": "2026-11-22T03:57:55Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0059",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:11:26Z",
+   "updated_at": "2026-11-21T16:22:43Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0060",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:11:24Z",
+   "updated_at": "2026-11-19T11:13:57Z",
+   "closed_at": "2026-11-19T11:13:56Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0061",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:11:23Z",
+   "updated_at": "2026-11-17T09:47:36Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0062",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:04:00Z",
+   "updated_at": "2026-11-21T10:49:38Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0063",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:03:58Z",
+   "updated_at": "2026-11-16T23:11:21Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0064",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:03:57Z",
+   "updated_at": "2026-11-17T19:03:51Z",
+   "closed_at": "2026-11-17T19:03:03Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0065",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:03:55Z",
+   "updated_at": "2026-11-17T05:05:06Z",
+   "closed_at": "2026-11-17T05:05:06Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0066",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T23:03:53Z",
+   "updated_at": "2026-11-17T07:25:12Z",
+   "closed_at": "2026-11-17T04:25:24Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0067",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T08:52:20Z",
+   "updated_at": "2026-11-22T19:53:01Z",
+   "closed_at": "2026-11-22T19:53:01Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0068",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-16T08:52:18Z",
+   "updated_at": "2026-11-16T08:52:28Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0069",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-15T08:52:56Z",
+   "updated_at": "2026-11-15T08:52:56Z",
+   "closed_at": null,
+   "state": "open",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0070",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-15T08:52:55Z",
+   "updated_at": "2026-11-22T05:32:19Z",
+   "closed_at": "2026-11-22T05:32:19Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0071",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-14T08:54:46Z",
+   "updated_at": "2026-11-15T01:07:16Z",
+   "closed_at": "2026-11-15T01:07:16Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0072",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-14T08:54:45Z",
+   "updated_at": "2026-11-15T01:06:00Z",
+   "closed_at": "2026-11-15T01:05:59Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0073",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-14T08:54:44Z",
+   "updated_at": "2026-11-15T01:20:24Z",
+   "closed_at": "2026-11-15T01:20:24Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0074",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-13T08:55:04Z",
+   "updated_at": "2026-11-13T23:15:31Z",
+   "closed_at": "2026-11-13T23:15:30Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0075",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-13T08:55:02Z",
+   "updated_at": "2026-11-13T16:44:14Z",
+   "closed_at": "2026-11-13T16:44:14Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0076",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-13T08:55:00Z",
+   "updated_at": "2026-11-13T16:44:12Z",
+   "closed_at": "2026-11-13T16:44:12Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0077",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-12T08:55:01Z",
+   "updated_at": "2026-11-12T12:28:46Z",
+   "closed_at": "2026-11-12T12:28:46Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0078",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-12T08:55:00Z",
+   "updated_at": "2026-11-12T16:41:06Z",
+   "closed_at": "2026-11-12T16:41:06Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0079",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-12T08:54:58Z",
+   "updated_at": "2026-11-12T12:14:51Z",
+   "closed_at": "2026-11-12T12:14:51Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0080",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-11T08:55:54Z",
+   "updated_at": "2026-11-11T10:42:07Z",
+   "closed_at": "2026-11-11T10:42:07Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0081",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-11T08:55:52Z",
+   "updated_at": "2026-11-11T17:25:12Z",
+   "closed_at": "2026-11-11T17:25:12Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0082",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-11T08:55:51Z",
+   "updated_at": "2026-11-11T10:45:49Z",
+   "closed_at": "2026-11-11T10:45:49Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0083",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-10T08:00:38Z",
+   "updated_at": "2026-11-10T13:34:06Z",
+   "closed_at": "2026-11-10T13:34:06Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0084",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-10T08:00:35Z",
+   "updated_at": "2026-11-10T12:25:10Z",
+   "closed_at": "2026-11-10T12:25:10Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0085",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-10T08:00:34Z",
+   "updated_at": "2026-11-10T12:25:09Z",
+   "closed_at": "2026-11-10T12:25:09Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0086",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-09T08:54:14Z",
+   "updated_at": "2026-11-09T10:01:59Z",
+   "closed_at": "2026-11-09T10:01:59Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0087",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-09T08:54:12Z",
+   "updated_at": "2026-11-09T10:01:58Z",
+   "closed_at": "2026-11-09T10:01:58Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0088",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-09T08:54:11Z",
+   "updated_at": "2026-11-09T10:01:58Z",
+   "closed_at": "2026-11-09T10:01:58Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0089",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-08T08:53:26Z",
+   "updated_at": "2026-11-08T12:09:28Z",
+   "closed_at": "2026-11-08T12:09:28Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0090",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-08T08:53:25Z",
+   "updated_at": "2026-11-08T12:09:27Z",
+   "closed_at": "2026-11-08T12:09:27Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0091",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-07T14:26:46Z",
+   "updated_at": "2026-11-07T16:11:26Z",
+   "closed_at": "2026-11-07T16:11:26Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0092",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-07T07:55:47Z",
+   "updated_at": "2026-11-07T13:04:22Z",
+   "closed_at": "2026-11-07T13:04:22Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0093",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-07T07:55:45Z",
+   "updated_at": "2026-11-07T10:34:59Z",
+   "closed_at": "2026-11-07T10:34:59Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0094",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-07T07:55:44Z",
+   "updated_at": "2026-11-07T10:34:58Z",
+   "closed_at": "2026-11-07T10:34:58Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0095",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-07T06:31:01Z",
+   "updated_at": "2026-11-07T10:02:51Z",
+   "closed_at": "2026-11-07T10:02:51Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0096",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-07T06:31:00Z",
+   "updated_at": "2026-11-07T10:02:51Z",
+   "closed_at": "2026-11-07T10:02:51Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0097",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-07T06:30:58Z",
+   "updated_at": "2026-11-07T09:22:14Z",
+   "closed_at": "2026-11-07T09:22:14Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0098",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-07T05:40:08Z",
+   "updated_at": "2026-11-16T08:52:22Z",
+   "closed_at": "2026-11-07T07:41:25Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0099",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-07T05:40:06Z",
+   "updated_at": "2026-11-07T07:41:24Z",
+   "closed_at": "2026-11-07T07:41:24Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  },
+  {
+   "id": "product-0100",
+   "source": "product",
+   "label": "customer",
+   "created_at": "2026-11-07T05:40:05Z",
+   "updated_at": "2026-11-12T05:44:12Z",
+   "closed_at": "2026-11-12T05:44:12Z",
+   "state": "closed",
+   "has_predicts": false,
+   "seen": null,
+   "due": null,
+   "evals": []
+  }
+ ]
+}

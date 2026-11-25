@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you cite this paper, please use these details."
+title: "Continuous Improvement in Agent Scrum"
+type: report
+authors:
+  - family-names: Remy
+    given-names: Dave
+    affiliation: Independent
+version: "0.7"
+date-released: 2026-11-25
+license: CC-BY-4.0
+url: "https://daveremy.github.io/agent-scrum-improvement/"

@@ -1,0 +1,11 @@
+retro issues read 323; with a verdict comment at or before 2026-11-22T21:52:45.648Z: 129; unmatched to the export: 0
+held                         {"keep":95}
+held|closed                  {"keep":85}
+held|open                    {"keep":10}
+not-held                     {"keep":18}
+not-held|closed              {"keep":15}
+not-held|open                {"keep":3}
+unmeasurable                 {"keep":16}
+unmeasurable|closed          {"keep":14}
+unmeasurable|open            {"keep":2}
+keep 129 of 129 = 100.0% (97.1 to 100.0); reverse 0
